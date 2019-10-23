@@ -10,6 +10,15 @@ They are subject to change as the content of this module evolves.
 Les documents disponibles dans ce dépot GitHub sont à destination des étudiants du département Informatique - Electronique de l'école d'ingénieurs ESIREM - Dijon - France.
 Ils sont amenés à changer au fur et a mesure de l'évolution du contenu de ce module.
 
+## Lectures / Cours
+Some lectures are available for download here :
+Certains des cours sont accessibles pour téléchargement ici
+
+* [_http://ginhac.com/teaching/ITC313/01-cpp-introduction.pdf_](http://ginhac.com/teaching/ITC313/01-cpp-introduction.pdf)
+* [_http://ginhac.com/teaching/ITC313/02-cpp-basics.pdf_](http://ginhac.com/teaching/ITC313/02-cpp-basics.pdf )
+* [_http://ginhac.com/teaching/ITC313/03-cpp-advanced.pdf_](http://ginhac.com/teaching/ITC313/03-cpp-advanced.pdf)
+
+
 ##  Content / Contenu
 * Directory samples: Sets of codes used in lectures / Ensemble des codes présentés en cours
 * Directory TD: Tutorials / Sujets et corrigés des TD
