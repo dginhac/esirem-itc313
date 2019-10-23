@@ -11,9 +11,10 @@ Les documents disponibles dans ce dépot GitHub sont à destination des étudian
 Ils sont amenés à changer au fur et a mesure de l'évolution du contenu de ce module.
 
 ##  Content / Contenu
-* Sets of codes used in lectures / Ensemble des codes présentés en cours
-* Homeworks / Sujets et corrigés des TDs, Sujets des TP
-* Additional documents/ Documents annexes
+* Directory samples: Sets of codes used in lectures / Ensemble des codes présentés en cours
+* Directory TD: Tutorials / Sujets et corrigés des TD
+* Directory TP: Lab work /Sujets des TP
+* Directory utils: Additional documents/ Documents annexes
 
 
 
