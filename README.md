@@ -11,20 +11,20 @@ Les documents disponibles dans ce dépot GitHub sont à destination des étudian
 Ils sont amenés à changer au fur et a mesure de l'évolution du contenu de ce module.
 
 ## Lectures / Cours
-Some lectures are available for download here :
-Certains des cours sont accessibles pour téléchargement ici
+Some lectures are available for download:
+Certains des cours sont accessibles pour téléchargement :
 
-* [_http://ginhac.com/teaching/ITC313/01-cpp-introduction.pdf_](http://ginhac.com/teaching/ITC313/01-cpp-introduction.pdf)
-* [_http://ginhac.com/teaching/ITC313/02-cpp-basics.pdf_](http://ginhac.com/teaching/ITC313/02-cpp-basics.pdf )
-* [_http://ginhac.com/teaching/ITC313/03-cpp-advanced.pdf_](http://ginhac.com/teaching/ITC313/03-cpp-advanced.pdf)
+* [http://ginhac.com/teaching/ITC313/01-cpp-introduction.pdf](http://ginhac.com/teaching/ITC313/01-cpp-introduction.pdf)
+* [http://ginhac.com/teaching/ITC313/02-cpp-basics.pdf](http://ginhac.com/teaching/ITC313/02-cpp-basics.pdf )
+* [http://ginhac.com/teaching/ITC313/03-cpp-advanced.pdf](http://ginhac.com/teaching/ITC313/03-cpp-advanced.pdf)
 
 
 ##  Content / Contenu
-* Directory samples: Sets of codes used in lectures / Ensemble des codes présentés en cours
-* Directory TD: Tutorials / Sujets et corrigés des TD
-* Directory TP: Lab work /Sujets des TP
-* Directory utils: Additional documents/ Documents annexes
-* Directory lectures: Readme for downloading lectures / Explications pour télécharger les cours
+* Directory [samples](samples): Sets of codes used in lectures / Ensemble des codes présentés en cours
+* Directory [TD](TD): Tutorials / Sujets et corrigés des TD
+* Directory [TP](TP): Lab work /Sujets des TP
+* Directory [utils](utils): Additional documents/ Documents annexes
+* Directory [lectures](lectures): Readme for downloading lectures / Explications pour télécharger les cours
 
 
 
