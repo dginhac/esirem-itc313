@@ -24,6 +24,7 @@ Certains des cours sont accessibles pour téléchargement ici
 * Directory TD: Tutorials / Sujets et corrigés des TD
 * Directory TP: Lab work /Sujets des TP
 * Directory utils: Additional documents/ Documents annexes
+* Directory lectures: Readme for downloading lectures / Explications pour télécharger les cours
 
 
 
