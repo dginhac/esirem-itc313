@@ -1,3 +1,9 @@
+# Tutorial git/GitHub
+
+[github.md](github.md) is a french tutorial for 2 developers collaborating on the same code.
+
+[github.md](github.md) est un tutorial en francais pour 2 développeurs qui collaborent sur le même code.
+
 # Lab Works - TP
 
 ## Lab Work 1 - TP1
