@@ -22,15 +22,15 @@ Les points (a) et (b) doivent se dérouler loin du clavier car ils sont totaleme
 
 # Préambule à tous les TP
 
-1. 1-La version numérique des sujets de TP est disponible sur le compte GitHub de l'enseignant : [https://github.com/dginhac/esirem-itc313](https://github.com/dginhac/esirem-itc313)
-2. 2-Vous travaillerez en binôme. S'il y a assez de PC ou si vous utilisez votre propre ordinateur, vous pouvez travailler chacun de votre côté mais vous devrez mettre en commun les développements faits.
-3. 3-Vous profiterez de ce TP pour utiliser Git/GitHub en appliquant ce que vous avez vu en TD. N'oubliez pas de faire des « commits » réguliers. Avant la fin de la première séance, vous enverrez un email à votre Professeur ([dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)) pour lui indiquer le nom du compte GitHub sur lequel il pourra constater l'avancée du travail. Si vous créez un projet GitHub privé, vous devrez inviter le Professeur pour qu'il puisse accéder à votre code.
-4. 4-Sur votre compte GitHub, vous nommerez les projets ITC313-TP1, ITC313-TP2, etc. afin que le suivi des projets par l'enseignant puisse se faire facilement pour toutes les seances.
-5. 5-Pour chaque TP, vous indiquerez l'avancée de votre travail dans le fichier README.md de GitHub, ce qui permettra à l'enseignement de voir en un coup d'œil l'avancée de votre travail.
-6. 6-Chaque commit devra comporter dans son message d'information le numéro de la question. Par exemple « Q1.a : création de la classe XXXX », « Q2.b : ajout de la méthode YYYY à la classe XXXX »
-7. 7-Pour effectuer la compilation de vos fichiers, vous devrez utiliser le « Makefile » fourni et l'adapter en fonction des noms des fichiers que vous allez créer. Soyez tout de même logique en appelant les fichiers .h et .cpp du nom des classes que vous créez.
-8. 8-Toutes les variables membres de toutes les classes créées dans ce TP seront définies en « private ». Il est donc nécessaire de créer certains getters/setters pour pouvoir accéder à ces variables membres.
-9. 9-N'oubliez pas de mettre des commentaires dans vos codes. Ils vous permettront (ainsi qu'à l'enseignant qui vous corrigera) de bien comprendre ce que vous avez écrit.
+1. La version numérique des sujets de TP est disponible sur le compte GitHub de l'enseignant : [https://github.com/dginhac/esirem-itc313](https://github.com/dginhac/esirem-itc313)
+2. Vous travaillerez en binôme. S'il y a assez de PC ou si vous utilisez votre propre ordinateur, vous pouvez travailler chacun de votre côté mais vous devrez mettre en commun les développements faits.
+3. Vous profiterez de ce TP pour utiliser Git/GitHub en appliquant ce que vous avez vu en TD. N'oubliez pas de faire des « commits » réguliers. Avant la fin de la première séance, vous enverrez un email à votre Professeur ([dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)) pour lui indiquer le nom du compte GitHub sur lequel il pourra constater l'avancée du travail. Si vous créez un projet GitHub privé, vous devrez inviter le Professeur pour qu'il puisse accéder à votre code.
+4. Sur votre compte GitHub, vous nommerez les projets ITC313-TP1, ITC313-TP2, etc. afin que le suivi des projets par l'enseignant puisse se faire facilement pour toutes les seances.
+5. Pour chaque TP, vous indiquerez l'avancée de votre travail dans le fichier README.md de GitHub, ce qui permettra à l'enseignement de voir en un coup d'œil l'avancée de votre travail.
+6. Chaque commit devra comporter dans son message d'information le numéro de la question. Par exemple « Q1.a : création de la classe XXXX », « Q2.b : ajout de la méthode YYYY à la classe XXXX »
+7. Pour effectuer la compilation de vos fichiers, vous devrez utiliser le « Makefile » fourni et l'adapter en fonction des noms des fichiers que vous allez créer. Soyez tout de même logique en appelant les fichiers .h et .cpp du nom des classes que vous créez.
+8. Toutes les variables membres de toutes les classes créées dans ce TP seront définies en « private ». Il est donc nécessaire de créer certains getters/setters pour pouvoir accéder à ces variables membres.
+9. N'oubliez pas de mettre des commentaires dans vos codes. Ils vous permettront (ainsi qu'à l'enseignant qui vous corrigera) de bien comprendre ce que vous avez écrit.
 
 # Introduction
 
@@ -88,7 +88,7 @@ Pour chacune des questions, on suppose que tous les paramètres passés aux cons
 
 ## Question 2 : Création de la classe Client
 
-2.a) Créer la classe Client avec ses variables membres (le type de la chambre sera géré avec une énumération) et ses fonctions getters.
+2.a) Créer la classe Client avec ses variables membres et ses fonctions getters.
 
 2.b) Ajouter une méthode permettant de modifier un client.
 
@@ -96,7 +96,7 @@ Pour chacune des questions, on suppose que tous les paramètres passés aux cons
 
 ## Question 3 : Création de la classe Chambre
 
-3.a) Créer la classe Chambre avec ses variables membres et ses fonctions getters.
+3.a) Créer la classe Chambre avec ses variables membres (le type de la chambre sera géré avec une énumération) et ses fonctions getters.
 
 3.b) Ajouter une méthode permettant de modifier une chambre.
 
