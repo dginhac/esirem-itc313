@@ -1,14 +1,16 @@
-# Makefile with dependencies management (Q4)
+# Generic Makefile with automatic dependencies management
 
+# Choose your compiler g++/clang++
 CXX        = g++
 CXXFLAGS   = -Wall -Wextra -std=c++11
 DEPFLAGS   = -MMD
 LDFLAGS    = 
-# Replace tp.cpp with the cpp files that need to be compiled
-SRCS       = tp.cpp 
+# Replace your_files.cpp with the list of cpp files that need to be compiled
+# Ex: file1.cpp file2.cpp file3.cpp
+SRCS       = your_files.cpp 
 OBJS       = $(SRCS:.cpp=.o)
-# Replace tp_main with the name you want to give to your executable file
-TARGET     = tp_main 
+# Replace your_app with the name you want to give to your executable file
+TARGET     = your_app 
 DEPS	   = $(OBJS:.o=.d)
 
 all: $(TARGET)
