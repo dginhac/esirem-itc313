@@ -69,7 +69,7 @@ Sur son ordinateur, `dev2` va effectuer les opérations suivantes :
 * Bascule sur la branche "Question2" : `git checkout Question2`
 * Création des fichiers Client.h, Client.cpp, Client-test.cpp 
 * Pour la compilation, [télécharger le Makefile](https://github.com/dginhac/esirem-itc313/blob/master/TP/Makefile) proposé avec le sujet du TP dans le dépot GitHub https://github.com/dginhac/esirem-itc313/)
-* Renommer votre `Makefile` en `Makefile.date` et modifier la ligne 7 en mettant `SRCS = Client.cpp Client-test.cpp` et la ligne 11 en mettant `TARGET = Client-test`
+* Renommer votre `Makefile` en `Makefile.client` et modifier la ligne 7 en mettant `SRCS = Client.cpp Client-test.cpp` et la ligne 11 en mettant `TARGET = Client-test`
 * Pour compiler, utiliser la commande `make -f Makefile.client`
 
 Une fois que tout est fonctionnel, vous aller pouvoir passer au `commit` des fichiers. Attention, vous pouvez faire plusieurs commit par Question (typiquement un par sous question.)
