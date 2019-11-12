@@ -1,7 +1,5 @@
 # TD1 C++ : Un peu de géométrie
 
-[_http://ginhac.com/teaching/ITC313/TD1.pdf_](http://ginhac.com/teaching/ITC313/TD1.pdf)
-
 # Préambule
 
 ## Quelques bonnes habitudes à prendre lorsqu'on fait de la programmation informatique
@@ -20,7 +18,7 @@ Les points (1) et (2) doivent se dérouler loin du clavier car ils sont totaleme
 
 L'exercice consiste à créer différentes classes représentant certains éléments de base de la géométrie : point, segment, droite, cercle, …
 
-Tous ces éléments sont définis par un ensemble de propriétés propres permettant de les repérer dans un repère orthonormé centré sur l'origine
+Tous ces éléments sont définis par un ensemble de propriétés propres permettant de les repérer dans un repère orthonormé centré sur l'origine.
 
 Ex : point A de coordonnées x=2 et y=4, segment BC défini par les 2 points B(2,0) et C(4, -3), …
 
@@ -48,7 +46,7 @@ Le [Makefile](../utils/Makefile) final utilisable pour la suite des TD/TP est t�
 
 ## Question 3 : Tuto git/GitHub
 
-Un [tutorial](../utils/github.md) spécifique git/GitHub est disponible dans le dossier utils](../utils/).
+Un [tutorial](../utils/github.md) spécifique git/GitHub est disponible dans le dossier [utils](../utils/).
 
 1. Découverte de git avec utilisation du terminal et de SublimeMerge
 2. Découverte de github
