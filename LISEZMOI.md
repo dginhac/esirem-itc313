@@ -23,7 +23,8 @@ Les supports de cours au format pdf (en anglais) sont accessibles pour télécha
 
 Ces supports de cours sont complétés par deux présentations additionnelles : 
 
-* Introduction sur les Makefile - [http://ginhac.com/teaching/TC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - Un [Makefile](utils/Makefile) générique utilisable pour des projets simples de développement est fourni dans le dossier [utils](utils).
+* Introduction sur les Makefile - 
+[http://ginhac.com/teaching/ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - Un [Makefile](utils/Makefile) générique utilisable pour des projets simples de développement est fourni dans le dossier [utils](utils).
 * Introduction sur git/GitHub - [http://ginhac.com/teaching/TC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - Un [tutorial](utils/github.md) détaillé sur l'utilisation de git/GitHub pour 2 développeurs est fourni dans le dossier [utils](utils).
 
 ## Contenu

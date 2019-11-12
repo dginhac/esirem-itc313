@@ -23,7 +23,7 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 
 Two additional presentations are also available:
 
-* Introduction on Makefiles - [ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - A generic [Makefile](utils/Makefile) for basic C++ projects is available in [utils](utils).
+* Introduction on Makefiles - [http://ginhac.com/teaching/ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - A generic [Makefile](utils/Makefile) for basic C++ projects is available in [utils](utils).
 * Introduction on git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - A french [tutorial](utils/github.md) on git/GitHub with 2 developers is also available in [utils](utils).
 
 ##  Content / Contenu
