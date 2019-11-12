@@ -11,7 +11,7 @@
 
 #include <string>
 
-enum taxonomy {Literature, Science, Arts, SciFi, Comic, History, Politics, Economy, Religion};
+enum taxonomy {Literature, Science, Arts, SciFi, Comic, History, Politics, Economy, Religion, None};
 
 class Book {
 public:
@@ -25,6 +25,7 @@ public:
 	void updateBook(std::string title, std::string author, int year, taxonomy classification);
 	void setIdentifier(int id);
 	void updateAuthor(std::string author);
+	void updateTitle(std::string title);
 	void display() const;
 private:
 	std::string m_title;

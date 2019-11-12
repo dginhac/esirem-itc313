@@ -34,23 +34,37 @@ int Library::getBooksNumber() const {
 	return m_books.size();
 }
 void Library::display() const {
+	std::cout << m_name << ": " << std::endl;
 	for (Book b: m_books) {
 		b.display();
 	}
-}
-Book& Library::getBook(int i) {
-	std::cout << "In getBook: " << &m_books[i] << std::endl;
-	return m_books[i];
-}
-void Library::updateBookAuthor(Book& b, std::string author) {
-	std::cout << "In update: " << &b << std::endl;
-	b.display();
-	b.updateAuthor(author);
-	b.display();
+	//std::cout << std::endl;
 }
 
+Book Library::getBookFromId(int identifier) {
+	for (Book b: m_books) {
+		if (b.getIdentifier() == identifier) {
+			//std::cout << "In getBook: " << &b << std::endl;
+			return b;
+		}
+	}
+}
+
+
+
+void Library::updateBookTitle(Book b, std::string title) {
+	//std::cout << "In update: " << &b << std::endl;
+	//b.display();
+	b.updateTitle(title);
+	b.display();
+   	//std::cout << "End of update" << std::endl;
+}
+
+
+
+
 void Library::printAd(std::string msg, int i) {
-	std::cout << msg << ": " << &m_books[i] << std::endl;
+	std::cout << msg << &m_books[i] << " ";
 }
 /*
 void Library::updateBookAuthor(int id, std::string author) {

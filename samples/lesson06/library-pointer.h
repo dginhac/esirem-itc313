@@ -23,8 +23,8 @@ public:
 		int identifier=-1);
 	void display() const;
 	int getBooksNumber() const;
-	Book& getBook(int i);
-	void updateBookAuthor(Book& b, std::string author);
+	Book* getBookFromId(int i);
+	void updateBookTitle(Book* b, std::string title);
 	void printAd(std::string msg, int i);
 private:
 	std::vector<Book> m_books;

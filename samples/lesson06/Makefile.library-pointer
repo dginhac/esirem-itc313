@@ -4,9 +4,9 @@ CXX        = clang++
 CXXFLAGS   = -Wall -Wextra -std=c++11
 DEPFLAGS   = -MMD
 LDFLAGS    = 
-SRCS       = book.cpp library.cpp library_test.cpp
+SRCS       = book.cpp library-pointer.cpp library_test-pointer.cpp
 OBJS       = $(SRCS:.cpp=.o)
-TARGET     = library_test
+TARGET     = library_test-pointer
 DEPS	   = $(OBJS:.o=.d)
 
 all: $(TARGET)
