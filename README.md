@@ -5,7 +5,7 @@ La version française de ce fichier [LISEZMOI](LISEZMOI.md) est également dispo
 
 ## Introduction
 
-The documents available in this GitHub repository are intended for students in the Computer Science - Electronics department of the ESIREM engineering school - Dijon - France.
+The documents available in this GitHub repository are intended for students in the Computer Science - Electronics department of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 They are distributed under the terms of the GPLv3 - [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) and can be freely used by anyone who want to learn C++/
 
