@@ -13,18 +13,18 @@ Les cours sont organisés en leçons, chacune d'elles étant dédiées à l'étu
 Les supports de cours au format pdf (en anglais) sont accessibles pour téléchargement :
 
 * Cours 00: Introduction - [http://ginhac.com/teaching/ITC313/lesson-00.pdf](http://ginhac.com/teaching/ITC313/lesson-00.pdf)
-* Cours 01: Un peu d'histoire des langages C/C++ - [http://ginhac.com/teaching/ITC313/lesson-0.pdf](http://ginhac.com/teaching/ITC313/lesson-0.pdf)
-* Cours 02: Hello, world! - [http://ginhac.com/teaching/ITC313/lesson-0.pdf](http://ginhac.com/teaching/ITC313/lesson-0.pdf)
-* Cours 03: Classes et Objects (Partie 1) - [http://ginhac.com/teaching/ITC313/lesson-0.pdf](http://ginhac.com/teaching/ITC313/lesson-0.pdf)
-* Cours 04: Classes et Objects (Partie 2) - [http://ginhac.com/teaching/ITC313/lesson-0.pdf](http://ginhac.com/teaching/ITC313/lesson-0.pdf)
-* Cours 05: Les tableaux en C++ - [http://ginhac.com/teaching/ITC313/lesson-0.pdf](http://ginhac.com/teaching/ITC313/lesson-0.pdf)
-* Cours 06: Passage par Valeur, Pointeur* ou Reference& - [http://ginhac.com/teaching/ITC313/lesson-0.pdf](http://ginhac.com/teaching/ITC313/lesson-0.pdf)
+* Cours 01: Un peu d'histoire des langages C/C++ - [http://ginhac.com/teaching/ITC313/lesson-01.pdf](http://ginhac.com/teaching/ITC313/lesson-01.pdf)
+* Cours 02: Hello, world! - [http://ginhac.com/teaching/ITC313/lesson-02.pdf](http://ginhac.com/teaching/ITC313/lesson-02.pdf)
+* Cours 03: Classes et Objects (Partie 1) - [http://ginhac.com/teaching/ITC313/lesson-03.pdf](http://ginhac.com/teaching/ITC313/lesson-03.pdf)
+* Cours 04: Classes et Objects (Partie 2) - [http://ginhac.com/teaching/ITC313/lesson-04.pdf](http://ginhac.com/teaching/ITC313/lesson-04.pdf)
+* Cours 05: Les tableaux en C++ - [http://ginhac.com/teaching/ITC313/lesson-05.pdf](http://ginhac.com/teaching/ITC313/lesson-05.pdf)
+* Cours 06: Passage par Valeur, Pointeur* ou Reference& - [http://ginhac.com/teaching/ITC313/lesson-06.pdf](http://ginhac.com/teaching/ITC313/lesson-06.pdf)
 * Cours 07 : A venir !
 
 Ces supports de cours sont complétés par deux présentations additionnelles : 
 
-* Introduction sur les Makefile - [http://ginhac.com/teaching/ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - Un [Makefile](utils/Makefile) générique utilisable pour des projets simples de développement est fourni dans le dossier [utils](utils).
-* Introduction sur git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-tutorial.pdf) - Un [tutorial](utils/github.md) détaillé sur l'utilisation de git/GitHub pour 2 développeurs est fourni dans le dossier [utils](utils).
+* Introduction sur les Makefile - [http://ginhac.com/teaching/TC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - Un [Makefile](utils/Makefile) générique utilisable pour des projets simples de développement est fourni dans le dossier [utils](utils).
+* Introduction sur git/GitHub - [http://ginhac.com/teaching/TC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - Un [tutorial](utils/github.md) détaillé sur l'utilisation de git/GitHub pour 2 développeurs est fourni dans le dossier [utils](utils).
 
 ## Contenu
 * Dossier [samples](samples): Ensemble des codes présentés en cours
