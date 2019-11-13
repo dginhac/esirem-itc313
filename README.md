@@ -29,7 +29,8 @@ Two additional presentations are also available:
 ##  Content / Contenu
 * Directory [samples](samples): Sets of codes used in lectures
 * Directory [TD](TD): Tutorials 
-* Directory [TP](TP): Lab work /Sujets des TP
+* Directory [exams](exams): Exams
+* Directory [TP](TP): Lab work 
 * Directory [utils](utils): Additional documents
 * Directory [lectures](lectures): Additional information on lectures
 
