@@ -21,7 +21,9 @@ void Todolist::display() {
 }
 
 bool Todolist::add_todo(const Todo& t) {
+	std::cout << "Add Todo " << t.get_id() << "... " ;
 	m_list.push_back(t);
+	std::cout << "ok" << std::endl;
 	return true;
 }
 

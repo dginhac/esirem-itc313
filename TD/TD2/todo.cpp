@@ -23,6 +23,14 @@ int Todo::get_id() const {
 	return m_id;
 }
 
+std::string Todo::get_title() const {
+	return m_title;
+}
+
+std::string Todo::get_description() const {
+	return m_description;
+}
+
 bool Todo::get_status() const {
 	return m_status;
 }

@@ -19,7 +19,7 @@ int main()
 
 	Todo t1(cpt++, "Courses", "Aller faire les courses à Carrefour");
 	Todo t2(cpt++, "Running","Entrainement preparation course");
-	Todo *t3 = new Todo(cpt++, "Cinema", "Aller voir le denier film a la mode");
+	Todo *t3 = new Todo(cpt++, "Cinema", "Aller voir le dernier StarWars");
 	Todo *t4 = new Todo(cpt++, "TD C++", "Ecrire le code de l'application todo list");
 	a_faire.add_todo(t1);
 	a_faire.add_todo(t2);
@@ -30,10 +30,12 @@ int main()
 	assert (a_faire.update_status(3, true));
 	a_faire.display();
 	
-
 	a_faire.remove_todo(2);
 	a_faire.display();
-	
+
+	Todo t5(cpt++, "Vacances Noel", "Commander billets de train");
+	a_faire.add_todo(t5);
+	a_faire.display();
 
 
 	return 0;
