@@ -18,5 +18,10 @@ int main() {
 	for (int number : vect_array)
 		std::cout << number << " ";
 	std::cout << std::endl;
+
+	vect_array.resize(2);
+	for (int number : vect_array)
+		std::cout << number << " ";
+	std::cout << std::endl;
 	return 0;
 }

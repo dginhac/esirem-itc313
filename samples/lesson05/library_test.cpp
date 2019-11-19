@@ -22,6 +22,8 @@ int main()
 	lib.addBook(b1);
 	lib.addBook(b2);
 	lib.addBook(b3);
+	lib.addBook("XXX", "YYY", 1990, Arts, 908);
+	
 	lib.printAd("In main", 1);
 	lib.display();
 	std::cout << "Updating book 1" << std::endl;

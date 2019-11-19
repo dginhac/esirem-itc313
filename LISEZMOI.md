@@ -31,6 +31,7 @@ Ces supports de cours sont complétés par deux présentations additionnelles :
 * Dossier [samples](samples): Ensemble des codes présentés en cours
 * Dossier [TD](TD): Sujets et corrigés des TD
 * Dossier [TP](TP): Sujets des TP
+* Directory [exams](exams): Examens avec corrigés
 * Dossier [utils](utils): Documents annexes
 * Dossier [lectures](lectures): Explications complémentaires sur les cours
 
