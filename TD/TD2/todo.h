@@ -16,13 +16,13 @@
 class Todo
 {
 public:
+  // Question 1
 	Todo(int id, std::string title, std::string description, bool status=false);
   void display();
   int get_id() const;
   std::string get_title() const;
   std::string get_description() const;
   bool get_status() const;
-  
   void update_status(bool status);
 	
 private:

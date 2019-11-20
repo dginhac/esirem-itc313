@@ -8,6 +8,9 @@
 
 #include "todo.h"
 
+
+// Question 1
+
 Todo::Todo(int id, std::string title, std::string description, bool status) {
 	m_id = id;
 	m_title = title;
