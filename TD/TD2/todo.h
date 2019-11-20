@@ -7,10 +7,15 @@
   */
 
 #ifndef _todo_
-#define _todo_ value
+#define _todo_ 
 
 #include <iostream>
 #include <string>
+#include "category.h"
+
+
+// Required to declare Category because Todo uses Category
+class Category;
 
 
 class Todo
@@ -18,18 +23,25 @@ class Todo
 public:
   // Question 1
 	Todo(int id, std::string title, std::string description, bool status=false);
-  void display();
+  void display() const;
   int get_id() const;
   std::string get_title() const;
   std::string get_description() const;
   bool get_status() const;
   void update_status(bool status);
+  // Question 2
+  Todo(int id, std::string title, std::string description, std::string category, bool status=false);
+  
 	
 private:
+  // Question 1
   int m_id;
 	std::string m_title;
 	std::string m_description;
 	bool m_status;
+  // Question 2
+  Category *m_category;
+
 };
 
 #endif

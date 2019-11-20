@@ -18,7 +18,7 @@ Todo::Todo(int id, std::string title, std::string description, bool status) {
 	m_status = status;
 }
 
-void Todo::display() {
+void Todo::display() const {
 	std::cout << m_id << "\t\t" << m_title << "\t\t" << m_description << "\t\t" << m_status << std::endl;
 }
 
@@ -42,3 +42,12 @@ void Todo::update_status(bool status) {
 	m_status = status;
 }
 
+// Question 2
+
+Todo::Todo(int id, std::string title, std::string description, std::string category, bool status) {
+	m_id = id;
+	m_title = title;
+	m_description = description;
+
+	m_status = status;
+}

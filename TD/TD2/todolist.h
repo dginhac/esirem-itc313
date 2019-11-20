@@ -7,25 +7,31 @@
   */
 
 #ifndef _todolist_
-#define _todolist_ value
+#define _todolist_ 
 
 #include <iostream>
 #include <vector>
 #include "todo.h"
+#include "category.h"
 
 class Todolist
 {
 public:
 	// Question 1
 	Todolist();
-	void display();
+	void display_todos();
 	bool add_todo(const Todo &t);
 	bool update_status(int id, bool status);
 	bool remove_todo(int id);
-
+	// Question 2
+	bool add_category(const Category &c);
+	void display_categories();
 	
 private:
-	std::vector<Todo> m_list;
+	// Question 1
+	std::vector<Todo> m_todos;
+	// Question 2
+	std::vector<Category> m_categories;
 };
 
 #endif
