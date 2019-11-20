@@ -29,7 +29,7 @@ void Todolist::add_todo(std::string title, std::string description, bool status)
 	static int count=1;
 	int id = count++;
 	std::cout << "Adding Todo #" << id << " ... " ;
-	Todo t(id, title, description, status);
+	Todo *t = new Todo(id, title, description, status);
 	m_todos.push_back(t);
 	std::cout << "OK" << std::endl;
 }
@@ -42,8 +42,8 @@ void Todolist::display_todos() const {
 	std::cout << "_____________________________________________________________" << std::endl;
 	std::cout << "Displaying the Todo list" << std::endl;
 	std::cout << "ID\tStatus\tTodo (with Description)" << std::endl;
-	for (const Todo& t: m_todos) {
-		t.display();
+	for (Todo* t: m_todos) {
+		t->display();
 	}
 	std::cout << "_____________________________________________________________" << std::endl << std::endl;
 }
@@ -56,7 +56,7 @@ void Todolist::display_todos() const {
   */
 int Todolist::find_todo(int uid) const {
 	for (unsigned long index=0; index<m_todos.size();index++) {
-		if (m_todos[index].get_uid() == uid) {
+		if (m_todos.at(index)->get_uid() == uid) {
 			return index;
 		}
 	}
@@ -70,7 +70,7 @@ int Todolist::find_todo(int uid) const {
   */
 int Todolist::find_todo(std::string title) const {
 	for (unsigned long index=0; index<m_todos.size();index++) {
-		if (m_todos[index].get_title() == title) {
+		if (m_todos.at(index)->get_title() == title) {
 			return index;
 		}
 	}
@@ -85,7 +85,7 @@ int Todolist::find_todo(std::string title) const {
 void Todolist::display_todo(int uid) const {
 	int index = find_todo(uid);
 	if (index != -1) {
-		m_todos[index].display();
+		m_todos.at(index)->display();
 	}
 	else {
 		std::cout << "Error: Todo #" << uid << " does not exist" << std::endl;
@@ -100,7 +100,7 @@ void Todolist::display_todo(int uid) const {
 void Todolist::display_todo(std::string title) const {
 	int index = find_todo(title);
 	if (index != -1) {
-		m_todos[index].display();
+		m_todos.at(index)->display();
 	}
 	else {
 		std::cout << "Error: Todo \"" << title << "\" does not exist" << std::endl;
@@ -118,7 +118,7 @@ bool Todolist::update_todo_status(int uid, bool status) {
 	int index = find_todo(uid);
 	std::cout << "Updating status Todo #" << uid << " ... " ;
 	if (index !=-1) {
-		m_todos[index].update_status(status);
+		m_todos.at(index)->update_status(status);
 		std::cout << "OK" << std::endl;
 		return true;
 	}
@@ -137,7 +137,7 @@ bool Todolist::update_todo_status(std::string title, bool status) {
 	int index = find_todo(title);
 	std::cout << "Updating status Todo \"" << title << "\" ... " ;
 	if (index !=-1) {
-		m_todos[index].update_status(status);
+		m_todos.at(index)->update_status(status);
 		std::cout << "OK" << std::endl;
 		return true;
 	}
@@ -156,7 +156,8 @@ bool Todolist::remove_todo(int uid) {
 	int index = find_todo(uid);
 	std::cout << "Removing Todo #" << uid << " ... " ;
 	if (index !=-1) {
-		//m_todos.erase(m_todos.begin()+index);
+		delete(m_todos.at(index));
+		m_todos.erase(m_todos.begin()+index);
 		return true;
 	}
 	std::cout << "NOK" << std::endl;

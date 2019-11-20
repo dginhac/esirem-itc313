@@ -32,10 +32,12 @@ int main()
 	// Update status of todo "TD C++"
 	my_todolist.update_todo_status("TD C++", true);
 
+	// Remove todo #4
+	my_todolist.remove_todo(4);
 	// Display all the todos
 	my_todolist.display_todos();
 
-	
+
 
 	/*
 
@@ -45,7 +47,7 @@ int main()
 
 	my_todolist.display_todos();
 	
-	my_todolist.remove_todo(4);
+	
 	my_todolist.display_todos();
 	my_todolist.add_todo("Exam C++", "Corriger copies");
 	my_todolist.display_todos();

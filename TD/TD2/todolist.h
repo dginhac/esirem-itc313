@@ -25,18 +25,20 @@ public:
 	
 	void display_todo(int id) const;
 	void display_todo(std::string title) const;
-
-
-
-
-	Todo& get_todo(int id);
-
 	bool update_todo_status(int uid, bool status);
 	bool update_todo_status(std::string title, bool status);
+	bool remove_todo(int id);
+
+
+
+
+	Todo* get_todo(int id);
+
+	
 
 
 	
-	bool remove_todo(int id);
+	
 	// Question 2
 	bool add_category(const Category &c);
 	void display_categories();
@@ -44,7 +46,7 @@ public:
 	
 private:
 	// Question 1
-	std::vector<Todo> m_todos;
+	std::vector<Todo*> m_todos;
 	// Question 2
 	std::vector<Category> m_categories;
 
