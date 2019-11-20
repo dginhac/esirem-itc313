@@ -22,17 +22,17 @@ public:
 	void add_todo(std::string title, std::string description, bool status=false);
 
 	void display_todos() const;
-	
 	void display_todo(int id) const;
 	void display_todo(std::string title) const;
+	bool update_todo_status(int uid, bool status);
+	bool update_todo_status(std::string title, bool status);
 
 
 
 
 	Todo& get_todo(int id);
 
-	bool update_todo_status(int uid, bool status);
-	bool update_todo_status(std::string title, bool status);
+	
 
 
 	
