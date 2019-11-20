@@ -24,18 +24,20 @@ public:
   // Question 1
 	Todo(int id, std::string title, std::string description, bool status=false);
   void display() const;
-  int get_id() const;
+
+
+  int get_uid() const;
   std::string get_title() const;
   std::string get_description() const;
   bool get_status() const;
   void update_status(bool status);
   // Question 2
-  Todo(int id, std::string title, std::string description, std::string category, bool status=false);
+  Todo(std::string title, std::string description, std::string category, bool status=false);
   
 	
 private:
   // Question 1
-  int m_id;
+  const int m_uid; 
 	std::string m_title;
 	std::string m_description;
 	bool m_status;

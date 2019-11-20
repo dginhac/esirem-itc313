@@ -13,29 +13,43 @@
 
 int main()
 {
-	// Question 1
-	Todolist a_faire;
-	
-	int cpt_todo = 1;
-	Todo t1(cpt_todo++, "Courses", "Aller faire les courses à Carrefour");
-	Todo t2(cpt_todo++, "Running","Entrainement preparation course");
-	Todo *t3 = new Todo(cpt_todo++, "Cinema", "Aller voir le dernier StarWars");
-	Todo *t4 = new Todo(cpt_todo++, "TD C++", "Ecrire le code de l'application todo list");
-	a_faire.add_todo(t1);
-	a_faire.add_todo(t2);
-	a_faire.add_todo(*t3);
-	a_faire.add_todo(*t4);
-	a_faire.display_todos();
+	// Create an empty todo list
+	Todolist my_todolist;
+	// Add some todos using only a title and a description, default status is todo
+	my_todolist.add_todo("Errands", "Buy chocolate");
+	my_todolist.add_todo("Running", "Training for next month race");
+	my_todolist.add_todo("C++ tutorial", "Write the code of todolist app");
+	my_todolist.add_todo("Cinema", "Do not forget to see the Rise of Skywalker");
+	my_todolist.add_todo("Christmas trip", "Buy train tickets");
+	// Display all the todos
+	my_todolist.display_todos();
+	// Display the todo #3 (id is automatically generated when task is created)
+	my_todolist.display_todo(3);
+	// Display the todo entitled "Running"
+	my_todolist.display_todo("Running");
+	// Update status of todo #3
+	my_todolist.update_todo_status(3, true);
+	// Update status of todo "TD C++"
+	my_todolist.update_todo_status("TD C++", true);
 
-	assert (a_faire.update_status(3, true));
-	a_faire.display_todos();
-	
-	a_faire.remove_todo(2);
-	a_faire.display_todos();
+	// Display all the todos
+	my_todolist.display_todos();
 
-	Todo t5(cpt_todo++, "Vacances Noel", "Commander billets de train");
-	a_faire.add_todo(t5);
-	a_faire.display_todos();
+	
+
+	/*
+
+	
+
+	my_todolist.display_todo(10);
+
+	my_todolist.display_todos();
+	
+	my_todolist.remove_todo(4);
+	my_todolist.display_todos();
+	my_todolist.add_todo("Exam C++", "Corriger copies");
+	my_todolist.display_todos();
+
 
 	// Question 2
 	int cpt_category =1;
@@ -43,13 +57,13 @@ int main()
 	Category c2(cpt_category++, "Pro");
 	Category c3(cpt_category++, "Loisirs");
 
-	a_faire.add_category(c1);
-	a_faire.add_category(c2);
-	a_faire.add_category(c3);
+	my_todolist.add_category(c1);
+	my_todolist.add_category(c2);
+	my_todolist.add_category(c3);
 
-	a_faire.display_categories();
+	my_todolist.display_categories();
 
-	
+*/
 
 
 	return 0;
