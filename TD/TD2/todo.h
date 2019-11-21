@@ -9,6 +9,9 @@
 #ifndef _todo_
 #define _todo_ 
 
+#define DEBUG 0
+
+
 #include <iostream>
 #include <string>
 #include "category.h"
@@ -22,7 +25,7 @@ class Todo
 {
 public:
   // Question 1
-	Todo(int id, std::string title, std::string description, bool status=false);
+	Todo(int id, std::string title, std::string description, bool status=false, Category* category=nullptr);
   void display() const;
 
 
@@ -32,7 +35,9 @@ public:
   bool get_status() const;
   void update_status(bool status);
   // Question 2
-  Todo(std::string title, std::string description, std::string category, bool status=false);
+  void update_category(Category* category);
+  std::string get_category() const;
+  
   
 	
 private:

@@ -9,13 +9,8 @@
 #include "category.h"
 
 // Question 2
-Category::Category(int id, std::string title) {
-	m_id = id;
+Category::Category(const std::string& title) {
 	m_title = title;
-}
-
-int Category::get_id() const {
-	return m_id;
 }
 
 std::string Category::get_title() const {
@@ -23,5 +18,14 @@ std::string Category::get_title() const {
 }
 
 void Category::display() const {
-	std::cout << m_id << "\t\t" << m_title << std::endl;
+	std::cout << m_title << ": ";
+  for (const Todo* todo: m_list) {
+    std::cout << todo->get_uid() << " ";
+  }
+  std::cout  << std::endl;
+}
+
+
+void Category::add_todo(Todo *todo) {
+  m_list.push_back(todo);
 }

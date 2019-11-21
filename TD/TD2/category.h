@@ -26,15 +26,14 @@ class Todo;
 class Category {
 public:
 	// Question 2
-	Category(int id, std::string title);
-	int get_id() const;
+	Category(const std::string& title);
 	std::string get_title() const;
 	void display() const;
+	void add_todo(Todo *todo);
 
 	
 private:
 	// Question 2
-	int m_id;
 	std::string m_title;
 	std::vector<Todo*> m_list;
 };

@@ -25,11 +25,22 @@ Todolist::Todolist() {
   * @param description the detailled description of the task
   * @param status the status of the task
   */
-void Todolist::add_todo(std::string title, std::string description, bool status) {
+void Todolist::add_todo(const std::string& title, const std::string& description, const std::string& category, bool status) {
 	static int count=1;
 	int id = count++;
 	std::cout << "Adding Todo #" << id << " ... " ;
-	Todo t(id, title, description, status);
+	Category* cat=nullptr;
+	if (category != "") {
+		for (Category& c: m_categories) {
+			if (c.get_title() == category) {
+				cat = &c;
+			}
+		}
+	}
+	Todo *t = new Todo(id, title, description, status, cat);
+	if (cat != nullptr) {
+		cat->add_todo(t);
+	}
 	m_todos.push_back(t);
 	std::cout << "OK" << std::endl;
 }
@@ -39,42 +50,42 @@ void Todolist::add_todo(std::string title, std::string description, bool status)
   *
   */
 void Todolist::display_todos() const {
-	std::cout << "_____________________________________________________________" << std::endl;
-	std::cout << "Displaying the Todo list" << std::endl;
-	std::cout << "ID\tStatus\tTodo (with Description)" << std::endl;
-	for (const Todo& t: m_todos) {
-		t.display();
+	std::cout << "ID\tStatus\tTodo (Category) - Description" << std::endl;
+	std::cout << "---------------------------------------------" << std::endl;
+	for (Todo* t: m_todos) {
+		t->display();
 	}
-	std::cout << "_____________________________________________________________" << std::endl << std::endl;
+	std::cout << std::endl;
 }
 
 /** 
   * Description: Find a todo using its uid
   *
   * @param uid the unique identifier of the task
-  * @return the index of the task if found, -1 otherwise 
+  * @return a pointer on task if found, nullptr otherwise 
   */
-int Todolist::find_todo(int uid) const {
-	for (unsigned long index=0; index<m_todos.size();index++) {
-		if (m_todos[index].get_uid() == uid) {
-			return index;
+Todo*  Todolist::find_todo(int uid) const {
+	for (Todo *todo: m_todos) {
+		if (todo->get_uid() == uid) {
+			return todo;
 		}
 	}
-	return -1;
+	return nullptr;
 }
+
 /** 
   * Description: Find a todo using its title
   *
   * @param title the title of the task
-  * @return the index of the task if found, -1 otherwise 
+  * @return a pointer on task if found, nullptr otherwise 
   */
-int Todolist::find_todo(std::string title) const {
-	for (unsigned long index=0; index<m_todos.size();index++) {
-		if (m_todos[index].get_title() == title) {
-			return index;
+Todo* Todolist::find_todo(const std::string& title) const {
+	for (Todo *todo: m_todos) {
+		if (todo->get_title() == title) {
+			return todo;
 		}
 	}
-	return -1;
+	return nullptr;
 }
 
 /** 
@@ -82,10 +93,10 @@ int Todolist::find_todo(std::string title) const {
   *
   * @param uid the unique identifier of the task 
   */
-void Todolist::display_todo(int uid) const {
-	int index = find_todo(uid);
-	if (index != -1) {
-		m_todos[index].display();
+void Todolist::display_todo(const int uid) const {
+	Todo* todo = find_todo(uid);
+	if (todo != nullptr) {
+		todo->display();
 	}
 	else {
 		std::cout << "Error: Todo #" << uid << " does not exist" << std::endl;
@@ -97,15 +108,16 @@ void Todolist::display_todo(int uid) const {
   *
   * @param title the title of the task
   */
-void Todolist::display_todo(std::string title) const {
-	int index = find_todo(title);
-	if (index != -1) {
-		m_todos[index].display();
+void Todolist::display_todo(const std::string& title) const {
+	Todo* todo = find_todo(title);
+	if (todo != nullptr) {
+		todo->display();
 	}
 	else {
 		std::cout << "Error: Todo \"" << title << "\" does not exist" << std::endl;
 	}
 }
+
 
 /** 
   * Description: Update the status of a todo using its uid
@@ -115,10 +127,10 @@ void Todolist::display_todo(std::string title) const {
   * @return true if task has been updated, false otherwise
   */
 bool Todolist::update_todo_status(int uid, bool status) {
-	int index = find_todo(uid);
 	std::cout << "Updating status Todo #" << uid << " ... " ;
-	if (index !=-1) {
-		m_todos[index].update_status(status);
+	Todo* todo = find_todo(uid);
+	if (todo != nullptr) {
+		todo->update_status(status);
 		std::cout << "OK" << std::endl;
 		return true;
 	}
@@ -133,11 +145,11 @@ bool Todolist::update_todo_status(int uid, bool status) {
   * @param status the new status of the task
   * @return true if task has been updated, false otherwise
   */
-bool Todolist::update_todo_status(std::string title, bool status) {
-	int index = find_todo(title);
+bool Todolist::update_todo_status(const std::string& title, bool status) {
 	std::cout << "Updating status Todo \"" << title << "\" ... " ;
-	if (index !=-1) {
-		m_todos[index].update_status(status);
+	Todo* todo = find_todo(title);
+	if (todo != nullptr) {
+		todo->update_status(status);
 		std::cout << "OK" << std::endl;
 		return true;
 	}
@@ -149,35 +161,123 @@ bool Todolist::update_todo_status(std::string title, bool status) {
   * Description: Remove a todo from its id
   *
   * @param uid the Unique identifier of a task
+  * @return true if task is deleted, false otherwise
+  */
+bool Todolist::remove_todo(int uid) {
+	std::cout << "Removing Todo #" << uid << " " << " ... " ;
+	for (unsigned long i=0; i<m_todos.size(); i++) {
+		if (m_todos.at(i)->get_uid() == uid) {
+			delete(m_todos.at(i));
+			m_todos.erase(m_todos.begin()+i);
+			std::cout << "OK" << std::endl;
+			return true;
+		}
+	}
+	std::cout << "NOK" << std::endl;
+	return false;
+	/*
+	for (auto it=m_todos.begin(); it!=m_todos.end(); it++) {
+		if ((*it)->get_uid() == uid) {
+			delete (*it);
+			it = m_todos.erase(it);
+			return true;
+		}
+	}
+	*/
+}
+
+
+// Question 2
+
+/** 
+  * Description: Add a new category
+  *
+  * @param title the title of the category
+  * @return true
+  */
+bool Todolist::add_category(const std::string &title) {
+	std::cout << "Adding Category \""  << title << "\" ... " ;
+	Category c(title);
+	m_categories.push_back(c);
+	std::cout << "OK" << std::endl;
+	return true;
+}
+
+/** 
+  * Description: Display the list of categories
+  *
+  */
+void Todolist::display_categories() const {
+	std::cout << "_____________________________________________________________" << std::endl;
+	std::cout << "Display Category list" << std::endl;
+	for (const Category& c: m_categories) {
+		c.display();
+	}
+	std::cout << "_____________________________________________________________" << std::endl << std::endl;
+}
+
+
+/** 
+  * Description: Display a category from its title
+  *
+  * @param title the title of the category
   * @return 
   */
+void Todolist::display_category(const std::string& title) const {
+	bool err=true;;
+	for (const Category& category: m_categories) { 
+		if (category.get_title() == title) {
+			category.display();
+			err=false;
+		}
+	}
+	if (err)
+		std::cout << "Error: Category \"" << title << "\" does not exist" << std::endl;
+}
 
-bool Todolist::remove_todo(int uid) {
-	int index = find_todo(uid);
-	std::cout << "Removing Todo #" << uid << " ... " ;
-	if (index !=-1) {
-		//m_todos.erase(m_todos.begin()+index);
+/** 
+  * Description: Update the category of a task using its title
+  *
+  * @param title the title of a task 
+  * @param category the new category of the task
+  * @return true if task has been updated, false otherwise
+  */
+
+bool Todolist::update_todo_category(const std::string& title, const std::string& category) {
+	bool done=false;
+	std::cout << "Updating category Todo \"" << title << "\" ... " ;
+	Todo* todo = find_todo(title);
+	if (todo != nullptr) {
+		for (Category& cat: m_categories) { 
+			if (cat.get_title() == category) {
+				todo->update_category(&cat);
+				cat.add_todo(todo);
+				done=true;
+			}
+		}
+		if (!done) {
+			add_category(category);
+			Category& cat=m_categories.back();
+			todo->update_category(&cat);
+			cat.add_todo(todo);
+		}
+		std::cout << "OK" << std::endl;
 		return true;
 	}
 	std::cout << "NOK" << std::endl;
 	return false;
 }
 
-
-// Question 2
-
-bool Todolist::add_category(const Category& c) {
-	std::cout << "Adding Category #" << c.get_id() << " ... " ;
-	m_categories.push_back(c);
-	std::cout << "OK" << std::endl;
-	return true;
-}
-
-void Todolist::display_categories() {
-	std::cout << "Display Category list" << std::endl;
-	std::cout << "ID \t\t Category" << std::endl;
-	for (Category& c: m_categories) {
-		c.display();
+/** 
+  * Description: Description: Display all the todos of a given category
+  *
+  * @param category the category to be displayed
+  * @return 
+  */
+void Todolist::display_todos(const std::string &category) const {
+	for (const Todo* todo: m_todos) {
+		if (todo->get_category() == category) {
+			todo->display();
+		}
 	}
-	std::cout << "_____________________________________________________________" << std::endl << std::endl;
 }

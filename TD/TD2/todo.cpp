@@ -11,16 +11,17 @@
 
 // Question 1
 /** 
-  * Description: The constructor  
+  * Description: The constructor 
   *
   * @param uid the Unique identifier of task
   * @param title the title of the task
   * @param description the detailled description of the task
   * @param status the status of the task
   */
-Todo::Todo(int uid, std::string title, std::string description, bool status) : m_uid(uid) {
+Todo::Todo(int uid, std::string title, std::string description, bool status, Category* category) : m_uid(uid) {
 	m_title = title;
 	m_description = description;
+  m_category = category;
 	m_status = status;
 }
 
@@ -30,10 +31,17 @@ Todo::Todo(int uid, std::string title, std::string description, bool status) : m
   */
 void Todo::display() const {
 	std::string status="Todo";
+  std::string category="NO CATEGORY";
 	if (m_status) {
 		status = "Done";
 	}
-	std::cout << "#" << m_uid << "\t" << status << "\t" << m_title << " (" << m_description << ")" << std::endl;
+  if (m_category) {
+    category = m_category->get_title();
+  }
+  if (DEBUG)
+    std::cout << this << " #" << m_uid << "\t" << status << "\t" << m_title << " (" << category << ") - " << m_description << std::endl;
+  else
+    std::cout << "#" << m_uid << "\t" << status << "\t" << m_title << " (" << category << ") - " << m_description << std::endl;
 }
 
 /** 
@@ -63,17 +71,25 @@ void Todo::update_status(bool status) {
 	m_status = status;
 }
 
-/*
-
-
-std::string Todo::get_description() const {
-	return m_description;
-}
-
-bool Todo::get_status() const {
-	return m_status;
-}
-
-
-*/
 // Question 2
+
+/** 
+  * Description: Update category of a task
+  *
+  * @param category the new category of the task
+  */
+void Todo::update_category(Category* category) {
+  m_category = category;
+}
+
+/** 
+  * Description: Get category of a task
+  *
+  */
+std::string Todo::get_category() const {
+  return m_category->get_title();
+}
+
+
+
+
