@@ -32,3 +32,11 @@ La classe Todolist comprendra aussi le minimum d'informations nécessaires à l'
 2. Ecrire une méthode de la classe Todolist permettant d'ajouter une nouvelle tâche dans la liste.
 3. Ecrire une méthode de la classe Todolist permettant de modifier le statut une tâche de la liste.
 4. Ecrire une méthode de la classe Todolist permettant de supprimer une tâche de la liste.
+
+## Question 2 : Ajout de catégories
+
+Il s’agit ici de rajouter la possibilité de créer des catégories de tâches (par exemple : Personnel, Professionnel, Loisirs, …) et de référencer chaque tache créée dans une de ces catégories.
+
+1. Rajouter une classe Category avec son constructeur, getters et méthode permettant d’afficher les données
+2. Modifier la classe Todolist pour pouvoir gérer les catégories.
+3. Modifier la classe Todo pour pouvoir ajouter une catégorie à une tâche.
