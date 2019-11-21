@@ -20,6 +20,54 @@ L'exercice consiste à créer différentes classes permettant de gérer une « t
 
 L'objectif de ce TD est de manipuler des notions importantes du C++, à savoir les références / pointeurs ainsi que l'allocation dynamique.
 
+## Exemple d'utilisation
+
+1. Création d'une Todolist
+```
+// Create an empty todo list
+Todolist my_todolist;
+```
+2. Création de taches et de catégories
+```
+// Add some todos using only a title and a description, default status is todo
+my_todolist.add_todo("Errands", "Buy chocolate");
+my_todolist.add_todo("Running", "Training for next month race");
+// Add new todos with title, description and description
+my_todolist.add_todo("Cooking", "Make a chocolate cake", "Private");
+my_todolist.add_todo("Cinema", "Buy tickets", "Hobbies");
+my_todolist.add_todo("Cinema", "See Frozen 2", "Hobbies");
+
+// Add categories
+my_todolist.add_category("Pro");
+my_todolist.add_category("Private");
+my_todolist.add_category("Sports");
+```
+
+3. Affichage des taches
+```
+// Display all the todos
+my_todolist.display_todos();
+// Display the todo entitled "Running"
+my_todolist.display_todo("Running");
+// Display the category entitled "Running"
+my_todolist.display_category("Private");
+// Display the todos of the category Hobbies
+my_todolist.display_todos("Hobbies");
+```
+
+4. Mise à jour des taches
+```
+// Update status of todo "C++ tutorial"
+my_todolist.update_todo_status("C++ tutorial", true);
+// Update the category of a todo with an existing category
+my_todolist.update_todo_category("Running", "Sports");
+my_todolist.update_todo_category("C++ tutorial", "Pro");
+// Update the category of a todo with a new category
+my_todolist.update_todo_category("Cinema", "Hobbies");
+my_todolist.update_todo_category("Errands", "Private");
+```
+
+
 ## Question 1 : Création des classes basiques Todo et Todolist
 
 Il s'agit ici de concevoir les 2 classes basiques Todo représentant la tâche à mémoriser et Todolist représentant l'ensemble des taches.
