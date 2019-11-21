@@ -23,49 +23,31 @@ int main()
 	my_todolist.add_todo("Christmas trip", "Buy train tickets");
 	// Display all the todos
 	my_todolist.display_todos();
-	// Display the todo #3 (id is automatically generated when task is created)
-	my_todolist.display_todo(3);
+	// Display the todo #5 (id is automatically generated when task is created)
+	my_todolist.display_todo(5);
 	// Display the todo entitled "Running"
 	my_todolist.display_todo("Running");
-	// Update status of todo #3
-	my_todolist.update_todo_status(3, true);
+	// Update status of todo #5
+	my_todolist.update_todo_status(5, true);
 	// Update status of todo "TD C++"
-	my_todolist.update_todo_status("TD C++", true);
+	my_todolist.update_todo_status("C++ tutorial", true);
 
 	// Remove todo #4
-	my_todolist.remove_todo(4);
+	my_todolist.remove_todo(5);
 	// Display all the todos
 	my_todolist.display_todos();
 
-
-
-	/*
-
-	
-
-	my_todolist.display_todo(10);
-
-	my_todolist.display_todos();
-	
-	
-	my_todolist.display_todos();
-	my_todolist.add_todo("Exam C++", "Corriger copies");
-	my_todolist.display_todos();
-
-
-	// Question 2
-	int cpt_category =1;
-	Category c1(cpt_category++, "Perso");
-	Category c2(cpt_category++, "Pro");
-	Category c3(cpt_category++, "Loisirs");
-
-	my_todolist.add_category(c1);
-	my_todolist.add_category(c2);
-	my_todolist.add_category(c3);
-
+	// Add categories
+	my_todolist.add_category("Pro");
+	my_todolist.add_category("Private");
+	my_todolist.add_category("Sports");
+	// Display categories
 	my_todolist.display_categories();
+	// Display a category from its title
+	my_todolist.display_category("Private");
+	my_todolist.display_category("Hobbies");
 
-*/
+	
 
 
 	return 0;

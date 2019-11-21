@@ -33,7 +33,7 @@ void Todo::display() const {
 	if (m_status) {
 		status = "Done";
 	}
-	std::cout << "#" << m_uid << "\t" << status << "\t" << m_title << " (" << m_description << ")" << std::endl;
+	std::cout << this << " #" << m_uid << "\t" << status << "\t" << m_title << " (" << m_description << ")" << std::endl;
 }
 
 /** 
