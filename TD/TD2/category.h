@@ -29,6 +29,7 @@ public:
 	Category(const std::string& title);
 	std::string get_title() const;
 	void display() const;
+	void add_todo(Todo *todo);
 
 	
 private:

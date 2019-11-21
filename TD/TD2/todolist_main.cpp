@@ -11,6 +11,7 @@
 
 
 
+
 int main()
 {
 	// Create an empty todo list
@@ -37,6 +38,7 @@ int main()
 	// Display all the todos
 	my_todolist.display_todos();
 
+	// Question 2
 	// Add categories
 	my_todolist.add_category("Pro");
 	my_todolist.add_category("Private");
@@ -47,8 +49,26 @@ int main()
 	my_todolist.display_category("Private");
 	my_todolist.display_category("Hobbies");
 
-	
+	// Update the category of a todo with an existing category
+	my_todolist.update_todo_category("Running", "Sports");
+	my_todolist.update_todo_category("C++ tutorial", "Pro");
+	// Update the category of a todo with a new category
+	my_todolist.update_todo_category("Cinema", "Hobbies");
+	my_todolist.update_todo_category("Errands", "Private");
 
+	// Add a new todo with full data
+	my_todolist.add_todo("Cooking", "Make a chocolate cake", "Private");
+	my_todolist.add_todo("Cinema", "Buy tickets", "Hobbies");
+	my_todolist.add_todo("Cinema", "See Frozen 2", "Hobbies");
+
+	// Display categories
+	my_todolist.display_categories();
+
+	// Display all the todos
+	my_todolist.display_todos();
+
+	// Display the todos of the category Hobbies
+	my_todolist.display_todos("Hobbies");
 
 	return 0;
 }

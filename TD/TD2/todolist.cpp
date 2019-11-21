@@ -25,11 +25,22 @@ Todolist::Todolist() {
   * @param description the detailled description of the task
   * @param status the status of the task
   */
-void Todolist::add_todo(const std::string& title, const std::string& description, bool status) {
+void Todolist::add_todo(const std::string& title, const std::string& description, const std::string& category, bool status) {
 	static int count=1;
 	int id = count++;
 	std::cout << "Adding Todo #" << id << " ... " ;
-	Todo *t = new Todo(id, title, description, status);
+	Category* cat=nullptr;
+	if (category != "") {
+		for (Category& c: m_categories) {
+			if (c.get_title() == category) {
+				cat = &c;
+			}
+		}
+	}
+	Todo *t = new Todo(id, title, description, status, cat);
+	if (cat != nullptr) {
+		cat->add_todo(t);
+	}
 	m_todos.push_back(t);
 	std::cout << "OK" << std::endl;
 }
@@ -39,13 +50,12 @@ void Todolist::add_todo(const std::string& title, const std::string& description
   *
   */
 void Todolist::display_todos() const {
-	std::cout << "_____________________________________________________________" << std::endl;
-	std::cout << "Displaying the Todo list" << std::endl;
-	std::cout << "ID\tStatus\tTodo (with Description)" << std::endl;
+	std::cout << "ID\tStatus\tTodo (Category) - Description" << std::endl;
+	std::cout << "---------------------------------------------" << std::endl;
 	for (Todo* t: m_todos) {
 		t->display();
 	}
-	std::cout << "_____________________________________________________________" << std::endl << std::endl;
+	std::cout << std::endl;
 }
 
 /** 
@@ -225,3 +235,49 @@ void Todolist::display_category(const std::string& title) const {
 		std::cout << "Error: Category \"" << title << "\" does not exist" << std::endl;
 }
 
+/** 
+  * Description: Update the category of a task using its title
+  *
+  * @param title the title of a task 
+  * @param category the new category of the task
+  * @return true if task has been updated, false otherwise
+  */
+
+bool Todolist::update_todo_category(const std::string& title, const std::string& category) {
+	bool done=false;
+	std::cout << "Updating category Todo \"" << title << "\" ... " ;
+	Todo* todo = find_todo(title);
+	if (todo != nullptr) {
+		for (Category& cat: m_categories) { 
+			if (cat.get_title() == category) {
+				todo->update_category(&cat);
+				cat.add_todo(todo);
+				done=true;
+			}
+		}
+		if (!done) {
+			add_category(category);
+			Category& cat=m_categories.back();
+			todo->update_category(&cat);
+			cat.add_todo(todo);
+		}
+		std::cout << "OK" << std::endl;
+		return true;
+	}
+	std::cout << "NOK" << std::endl;
+	return false;
+}
+
+/** 
+  * Description: Description: Display all the todos of a given category
+  *
+  * @param category the category to be displayed
+  * @return 
+  */
+void Todolist::display_todos(const std::string &category) const {
+	for (const Todo* todo: m_todos) {
+		if (todo->get_category() == category) {
+			todo->display();
+		}
+	}
+}
