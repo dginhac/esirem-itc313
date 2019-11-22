@@ -1,13 +1,13 @@
-/** 
-  * File:     todo.h 
+/**
+  * File:     todo.h
   * Author:   D. Ginhac (dginhac@u-bourgogne.fr)
-  * Date:     Fall 2019 
-  * Course:   C-C++ Programming / Esirem 3A Informatique Electronique 
+  * Date:     Fall 2019
+  * Course:   C-C++ Programming / Esirem 3A Informatique Electronique
   * Summary:  Declaration of class Todo
   */
 
 #ifndef _todo_
-#define _todo_ 
+#define _todo_
 
 #define DEBUG 0
 
@@ -37,12 +37,12 @@ public:
   // Question 2
   void update_category(Category* category);
   std::string get_category() const;
-  
-  
-	
+
+
+
 private:
   // Question 1
-  const int m_uid; 
+  const int m_uid;
 	std::string m_title;
 	std::string m_description;
 	bool m_status;

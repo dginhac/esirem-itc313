@@ -1,8 +1,8 @@
-/** 
-  * File:     todolist-test.cpp 
+/**
+  * File:     todolist-test.cpp
   * Author:   D. Ginhac (dginhac@u-bourgogne.fr)
-  * Date:     Fall 2019 
-  * Course:   C-C++ Programming / Esirem 3A Informatique Electronique 
+  * Date:     Fall 2019
+  * Course:   C-C++ Programming / Esirem 3A Informatique Electronique
   * Summary:  Program for testing the todo list
   */
 
@@ -21,6 +21,7 @@ int main()
 	my_todolist.add_todo("Running", "Training for next month race");
 	my_todolist.add_todo("C++ tutorial", "Write the code of todolist app");
 	my_todolist.add_todo("Cinema", "Do not forget to see the Rise of Skywalker");
+	my_todolist.add_todo("Cinema", "Do not forget to see again the Rise of Skywalker");
 	my_todolist.add_todo("Christmas trip", "Buy train tickets");
 	// Display all the todos
 	my_todolist.display_todos();
@@ -32,8 +33,8 @@ int main()
 	my_todolist.update_todo_status(5, true);
 	// Update status of todo "TD C++"
 	my_todolist.update_todo_status("C++ tutorial", true);
-	// Remove todo #4
-	my_todolist.remove_todo(5);
+	// Remove todo #6
+	my_todolist.remove_todo(6);
 	// Display all the todos
 	my_todolist.display_todos();
 
@@ -62,6 +63,15 @@ int main()
 
 	// Display categories
 	my_todolist.display_categories();
+
+	// Display all the todos
+	my_todolist.display_todos();
+
+	// Display the todos of the category Hobbies
+	my_todolist.display_todos("Hobbies");
+
+	// Remove todo #Cinema
+	my_todolist.remove_todo("Cinema");
 
 	// Display all the todos
 	my_todolist.display_todos();

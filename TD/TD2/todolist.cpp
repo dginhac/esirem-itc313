@@ -1,8 +1,8 @@
-/** 
-  * File:     todolist.cpp 
+/**
+  * File:     todolist.cpp
   * Author:   D. Ginhac (dginhac@u-bourgogne.fr)
-  * Date:     Fall 2019 
-  * Course:   C-C++ Programming / Esirem 3A Informatique Electronique 
+  * Date:     Fall 2019
+  * Course:   C-C++ Programming / Esirem 3A Informatique Electronique
   * Summary:  Implementation of todolist class
   */
 
@@ -10,16 +10,16 @@
 
 // Question 1
 
-/** 
-  * Description: The constructor 
+/**
+  * Description: The constructor
   *
-  */ 
+  */
 Todolist::Todolist() {
 	// Nothing to do
 }
 
-/** 
-  * Description: Create a new todo and insert it at the end of the list 
+/**
+  * Description: Create a new todo and insert it at the end of the list
   *
   * @param title the title of the task
   * @param description the detailled description of the task
@@ -45,7 +45,7 @@ void Todolist::add_todo(const std::string& title, const std::string& description
 	std::cout << "OK" << std::endl;
 }
 
-/** 
+/**
   * Description: Display all the todos
   *
   */
@@ -58,11 +58,11 @@ void Todolist::display_todos() const {
 	std::cout << std::endl;
 }
 
-/** 
+/**
   * Description: Find a todo using its uid
   *
   * @param uid the unique identifier of the task
-  * @return a pointer on task if found, nullptr otherwise 
+  * @return a pointer on task if found, nullptr otherwise
   */
 Todo*  Todolist::find_todo(int uid) const {
 	for (Todo *todo: m_todos) {
@@ -73,11 +73,11 @@ Todo*  Todolist::find_todo(int uid) const {
 	return nullptr;
 }
 
-/** 
+/**
   * Description: Find a todo using its title
   *
   * @param title the title of the task
-  * @return a pointer on task if found, nullptr otherwise 
+  * @return a pointer on task if found, nullptr otherwise
   */
 Todo* Todolist::find_todo(const std::string& title) const {
 	for (Todo *todo: m_todos) {
@@ -88,10 +88,10 @@ Todo* Todolist::find_todo(const std::string& title) const {
 	return nullptr;
 }
 
-/** 
+/**
   * Description: Display a todo using its uid
   *
-  * @param uid the unique identifier of the task 
+  * @param uid the unique identifier of the task
   */
 void Todolist::display_todo(const int uid) const {
 	Todo* todo = find_todo(uid);
@@ -103,7 +103,7 @@ void Todolist::display_todo(const int uid) const {
 	}
 }
 
-/** 
+/**
   * Description: Display a todo using its title
   *
   * @param title the title of the task
@@ -119,10 +119,10 @@ void Todolist::display_todo(const std::string& title) const {
 }
 
 
-/** 
+/**
   * Description: Update the status of a todo using its uid
   *
-  * @param uid the Unique Identifier of a task 
+  * @param uid the Unique Identifier of a task
   * @param status the new status of the task
   * @return true if task has been updated, false otherwise
   */
@@ -138,10 +138,10 @@ bool Todolist::update_todo_status(int uid, bool status) {
 	return false;
 }
 
-/** 
+/**
   * Description: Update the status of a todo using its title
   *
-  * @param title the title of a task 
+  * @param title the title of a task
   * @param status the new status of the task
   * @return true if task has been updated, false otherwise
   */
@@ -157,14 +157,14 @@ bool Todolist::update_todo_status(const std::string& title, bool status) {
 	return false;
 }
 
-/** 
+/**
   * Description: Remove a todo from its id
   *
   * @param uid the Unique identifier of a task
   * @return true if task is deleted, false otherwise
   */
 bool Todolist::remove_todo(int uid) {
-	std::cout << "Removing Todo #" << uid << " " << " ... " ;
+	std::cout << "Removing Todo #" << uid << " ... " ;
 	for (unsigned long i=0; i<m_todos.size(); i++) {
 		if (m_todos.at(i)->get_uid() == uid) {
 			delete(m_todos.at(i));
@@ -189,7 +189,7 @@ bool Todolist::remove_todo(int uid) {
 
 // Question 2
 
-/** 
+/**
   * Description: Add a new category
   *
   * @param title the title of the category
@@ -203,7 +203,7 @@ bool Todolist::add_category(const std::string &title) {
 	return true;
 }
 
-/** 
+/**
   * Description: Display the list of categories
   *
   */
@@ -217,15 +217,15 @@ void Todolist::display_categories() const {
 }
 
 
-/** 
+/**
   * Description: Display a category from its title
   *
   * @param title the title of the category
-  * @return 
+  * @return
   */
 void Todolist::display_category(const std::string& title) const {
 	bool err=true;;
-	for (const Category& category: m_categories) { 
+	for (const Category& category: m_categories) {
 		if (category.get_title() == title) {
 			category.display();
 			err=false;
@@ -235,10 +235,10 @@ void Todolist::display_category(const std::string& title) const {
 		std::cout << "Error: Category \"" << title << "\" does not exist" << std::endl;
 }
 
-/** 
+/**
   * Description: Update the category of a task using its title
   *
-  * @param title the title of a task 
+  * @param title the title of a task
   * @param category the new category of the task
   * @return true if task has been updated, false otherwise
   */
@@ -248,7 +248,7 @@ bool Todolist::update_todo_category(const std::string& title, const std::string&
 	std::cout << "Updating category Todo \"" << title << "\" ... " ;
 	Todo* todo = find_todo(title);
 	if (todo != nullptr) {
-		for (Category& cat: m_categories) { 
+		for (Category& cat: m_categories) {
 			if (cat.get_title() == category) {
 				todo->update_category(&cat);
 				cat.add_todo(todo);
@@ -268,11 +268,11 @@ bool Todolist::update_todo_category(const std::string& title, const std::string&
 	return false;
 }
 
-/** 
+/**
   * Description: Description: Display all the todos of a given category
   *
   * @param category the category to be displayed
-  * @return 
+  * @return
   */
 void Todolist::display_todos(const std::string &category) const {
 	for (const Todo* todo: m_todos) {
@@ -280,4 +280,23 @@ void Todolist::display_todos(const std::string &category) const {
 			todo->display();
 		}
 	}
+}
+
+/**
+  * Remove a todo from its title (only the first occurence)
+  *
+  * @param title the title of a task
+  * @return true if task is deleted, false otherwise
+  */
+bool Todolist::remove_todo(const std::string &title) {
+	for (unsigned long i=0; i<m_todos.size(); i++) {
+		if (m_todos.at(i)->get_title() == title) {
+			delete(m_todos.at(i));
+			m_todos.erase(m_todos.begin()+i);
+			std::cout << "OK" << std::endl;
+			return true;
+		}
+	}
+	std::cout << "NOK" << std::endl;
+	return false;
 }
