@@ -32,32 +32,35 @@ Todolist my_todolist;
 // Add some todos using only a title and a description, default status is todo
 my_todolist.add_todo("Errands", "Buy chocolate");
 my_todolist.add_todo("Running", "Training for next month race");
-// Add new todos with title, description and description
-my_todolist.add_todo("Cooking", "Make a chocolate cake", "Private");
-my_todolist.add_todo("Cinema", "Buy tickets", "Hobbies");
-my_todolist.add_todo("Cinema", "See Frozen 2", "Hobbies");
 
 // Add categories
 my_todolist.add_category("Pro");
 my_todolist.add_category("Private");
 my_todolist.add_category("Sports");
+
+// Add new todos with title, description and categories
+my_todolist.add_todo("Cooking", "Make a chocolate cake", "Private");
+my_todolist.add_todo("Cinema", "Buy tickets", "Hobbies");
+my_todolist.add_todo("Cinema", "See Frozen 2", "Hobbies");
+
 ```
 
-3. Affichage des taches
+3. Affichage des taches et des categories
 ```
 // Display all the todos
 my_todolist.display_todos();
 // Display the todo entitled "Running"
 my_todolist.display_todo("Running");
-// Display the category entitled "Running"
-my_todolist.display_category("Private");
+
 // Display the todos of the category Hobbies
 my_todolist.display_todos("Hobbies");
+// Display the category entitled "Private"
+my_todolist.display_category("Private");
 ```
 
 4. Mise à jour des taches
 ```
-// Update status of todo "C++ tutorial"
+// Update the status of todo "C++ tutorial"
 my_todolist.update_todo_status("C++ tutorial", true);
 // Update the category of a todo with an existing category
 my_todolist.update_todo_category("Running", "Sports");
