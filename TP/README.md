@@ -8,6 +8,10 @@
 
 The [TP1](TP1.md) is for basic C++ programming, including the creation and use of user-defined classes. This Labwork allows to discuss in details the member variables and methods.
 
+## Lab Work 2 - TP2
+
+The [TP2](TP2.md) is focusing on using references, pointers on user-defined classes. This Labwork allows to work in details with dynamic allocation.
+
 
 
 
