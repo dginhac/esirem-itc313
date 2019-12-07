@@ -52,6 +52,10 @@ int main()
 	// Update the category of a todo with an existing category
 	my_todolist.update_todo_category("Running", "Sports");
 	my_todolist.update_todo_category("C++ tutorial", "Pro");
+
+	// Add a new category
+	my_todolist.add_category("Debug");
+
 	// Update the category of a todo with a new category
 	my_todolist.update_todo_category("Cinema", "Hobbies");
 	my_todolist.update_todo_category("Errands", "Private");

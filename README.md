@@ -19,7 +19,9 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lesson 04: Classes and Objects (Part 2) - [http://ginhac.com/teaching/ITC313/lesson-04.pdf](http://ginhac.com/teaching/ITC313/lesson-04.pdf)
 * Lesson 05: C++ arrays - [http://ginhac.com/teaching/ITC313/lesson-05.pdf](http://ginhac.com/teaching/ITC313/lesson-05.pdf)
 * Lesson 06: C++ Pass by Value, Pointer*, &Reference - [http://ginhac.com/teaching/ITC313/lesson-06.pdf](http://ginhac.com/teaching/ITC313/lesson-06.pdf)
-* Lesson 07: to be continued...
+* Lesson 07: Overloading - [http://ginhac.com/teaching/ITC313/lesson-07.pdf](http://ginhac.com/teaching/ITC313/lesson-07.pdf)
+* Lesson 08: Templates - [http://ginhac.com/teaching/ITC313/lesson-08.pdf](http://ginhac.com/teaching/ITC313/lesson-08.pdf)
+* Lesson 09: to be continued...
 
 Two additional presentations are also available:
 
