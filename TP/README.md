@@ -12,6 +12,9 @@ The [TP1](TP1.md) is for basic C++ programming, including the creation and use o
 
 The [TP2](TP2.md) is focusing on using references, pointers on user-defined classes. This Labwork allows to work in details with dynamic allocation.
 
+## Lab Work 3 - TP3
+
+The [TP3](TP3.md) is focusing on inheritance. This Labwork allows to develop some well-known ciphering algorithms, including Caesar, Vigenere and Enigma.
 
 
 
