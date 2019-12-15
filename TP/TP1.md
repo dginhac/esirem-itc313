@@ -1,4 +1,4 @@
-# TP1 C++ : Ne vous endormez pas
+# TP1 C++ : Ne vous endormez pas (2*4h)
 
 [_http://ginhac.com/teaching/ITC313/TP1.pdf_](http://ginhac.com/teaching/ITC313/TP1.pdf)
 
@@ -34,7 +34,7 @@ Les points (a) et (b) doivent se dérouler loin du clavier car ils sont totaleme
 
 # Introduction
 
-Le TP consiste à concevoir une application de gestion des réservations d'un hôtel.
+Ce TP de 8h consiste à concevoir une application de gestion des réservations d'un hôtel.
 
 Un Hôtel peut être constitué des informations suivantes :
 

@@ -1,4 +1,4 @@
-## TP3 C++ : Alea Jacta Est
+## TP3 C++ : Alea Jacta Est (2*4h)
 
 # Préambule
 
@@ -31,7 +31,7 @@ Les points (a) et (b) doivent se dérouler loin du clavier car ils sont totaleme
 
 # Introduction
 
-Le but du TP est d'implémenter plusieurs algorithmes de chiffrement de données. Pour cela, un [document](cryptographie.pdf) expliquant plusieurs techniques de cryptographie vous est fourni. Il est vital de prendre le temps nécessaire pour le lire et comprendre les techniques présentées.
+Le but de ce TP de 8h est d'implémenter plusieurs algorithmes de chiffrement de données. Pour cela, un [document](cryptographie.pdf) expliquant plusieurs techniques de cryptographie vous est fourni. Il est vital de prendre le temps nécessaire pour le lire et comprendre les techniques présentées.
 
 L'objectif principal de ce TP est d'utiliser de manière efficace les compétences que vous avez acquises dans ce module pour résoudre des problèmes de complexité croissante. De plus, ce TP vous permettra de mettre en œuvre la notion d'héritage de classes. L'héritage est un concept très important en programmation orienté objet (il sera abordé lors du dernier cours en janvier 2020). Pour plus d'information sur l'héritage en C++, vous pouvez consulter le document suivant : [https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1898475-decouvrez-lheritage](https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1898475-decouvrez-lheritage)
 

@@ -1,4 +1,4 @@
-# TP2 C++ : EasyStore
+# TP2 C++ : EasyStore (2*4h)
 
 [_http://ginhac.com/teaching/ITC313/TP2.pdf_](http://ginhac.com/teaching/ITC313/TP2.pdf)
 
@@ -33,7 +33,7 @@ Les points (a) et (b) doivent se dérouler loin du clavier car ils sont totaleme
 
 # Introduction
 
-Le TP consiste à concevoir une application de magasin en ligne nommé EasyStore. Ce TP vous permettra d'utiliser les références, les pointeurs et les allocations dynamiques.
+Ce TP de 8h consiste à concevoir une application de magasin en ligne nommé EasyStore. Ce TP vous permettra d'utiliser les références, les pointeurs et les allocations dynamiques.
 
 La gestion de ce magasin nécessite la création de plusieurs classes : Produit, Client, Commande.
 
