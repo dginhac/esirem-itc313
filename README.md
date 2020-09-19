@@ -9,26 +9,30 @@ The documents available in this GitHub repository are intended for students in t
 They are subject to change as the content of this module evolves.
 They are distributed under the terms of the GPLv3 - [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) and can be freely used by anyone who want to learn C++/
 
-## Lectures
+## Lectures 2020-2021
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
-* Lesson 00: Introduction - [http://ginhac.com/teaching/ITC313/lesson-00.pdf](http://ginhac.com/teaching/ITC313/lesson-00.pdf)
-* Lesson 01: History of C/C++ languages - [http://ginhac.com/teaching/ITC313/lesson-01.pdf](http://ginhac.com/teaching/ITC313/lesson-01.pdf)
-* Lesson 02: Hello, world! - [http://ginhac.com/teaching/ITC313/lesson-02.pdf](http://ginhac.com/teaching/ITC313/lesson-02.pdf)
-* Lesson 03: Classes and Objects (Part 1) - [http://ginhac.com/teaching/ITC313/lesson-03.pdf](http://ginhac.com/teaching/ITC313/lesson-03.pdf)
-* Lesson 04: Classes and Objects (Part 2) - [http://ginhac.com/teaching/ITC313/lesson-04.pdf](http://ginhac.com/teaching/ITC313/lesson-04.pdf)
-* Lesson 05: C++ arrays - [http://ginhac.com/teaching/ITC313/lesson-05.pdf](http://ginhac.com/teaching/ITC313/lesson-05.pdf)
-* Lesson 06: C++ Pass by Value, Pointer*, &Reference - [http://ginhac.com/teaching/ITC313/lesson-06.pdf](http://ginhac.com/teaching/ITC313/lesson-06.pdf)
-* Lesson 07: Overloading - [http://ginhac.com/teaching/ITC313/lesson-07.pdf](http://ginhac.com/teaching/ITC313/lesson-07.pdf)
-* Lesson 08: Templates - [http://ginhac.com/teaching/ITC313/lesson-08.pdf](http://ginhac.com/teaching/ITC313/lesson-08.pdf)
+* Lesson 00: ITC313 Course Introduction - [http://ginhac.com/teaching/ITC313/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
+* Lesson 01: Hello, world! - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
+* Lesson 02: User-defined types - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
+* Lesson 03: Inheritance - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
+* Lesson 04: Polymorphism - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
+* Lesson 05: STL Containers - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
+* Lesson 06: Indirection - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
+* Lesson 07: Templates - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf)
+* Lesson 08: Exceptions - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf)
 * Lesson 09: to be continued...
 
+## Complementary lectures
 Two additional presentations are also available:
 
 * Introduction on Makefiles - [http://ginhac.com/teaching/ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - A generic [Makefile](utils/Makefile) for basic C++ projects is available in [utils](utils).
 * Introduction on git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - A french [tutorial](utils/github.md) on git/GitHub with 2 developers is also available in [utils](utils).
 
-##  Content / Contenu
+## Past lectures (2019-2020)
+Past lectures are also available in pdf format for download in [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf] (http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
+
+##  Other Content 
 * Directory [samples](samples): Sets of codes used in lectures
 * Directory [TD](TD): Tutorials 
 * Directory [exams](exams): Exams
