@@ -12,7 +12,7 @@ They are distributed under the terms of the GPLv3 - [https://www.gnu.org/license
 ## Lectures 2020-2021
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
-* Lesson 00: ITC313 Course Introduction - [http://ginhac.com/teaching/ITC313/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
+* Lesson 00: ITC313 Course Introduction - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
 * Lesson 01: Hello, world! - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
 * Lesson 02: User-defined types - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
 * Lesson 03: Inheritance - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
@@ -30,7 +30,8 @@ Two additional presentations are also available:
 * Introduction on git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - A french [tutorial](utils/github.md) on git/GitHub with 2 developers is also available in [utils](utils).
 
 ## Past lectures (2019-2020)
-Past lectures are also available in pdf format for download in [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf] (http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
+Past lectures are also available in pdf format for download at the following url [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf] (http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
+Do not forget to replace x by its value. 
 
 ##  Other Content 
 * Directory [samples](samples): Sets of codes used in lectures
