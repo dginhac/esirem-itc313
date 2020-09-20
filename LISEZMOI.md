@@ -12,10 +12,10 @@ Les cours sont organisés en leçons, chacune d'elles étant dédiées à l'étu
 
 Les supports de cours au format pdf (en anglais) sont accessibles pour téléchargement :
 
-* Lesson 00: ITC313 Introduction au cours - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
-* Lesson 01: Hello, world! - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
-* Lesson 02: Types utilisateur- [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
-* Lesson 03: Héritage - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
+* Lesson 00: ITC313 Introduction au cours - 10.4 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
+* Lesson 01: Hello, world! - 10 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
+* Lesson 02: Types utilisateur - 14.4 MO -[http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
+* Lesson 03: Héritage - 8.9 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
 * Lesson 04: Polymorphisme - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
 * Lesson 05: Librairie STL - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
 * Lesson 06: Indirection - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
