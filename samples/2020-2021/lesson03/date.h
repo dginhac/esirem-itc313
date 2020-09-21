@@ -4,7 +4,7 @@
  * @Email:  dginhac@u-bourgogne.fr
  * @Project: C++ Programming - ESIREM 3A IT
  * @Last modified by:   d0m
- * @Last modified time: 2020-09-19T23:24:16+02:00
+ * @Last modified time: 2020-09-21T14:33:57+02:00
  */
 
 #ifndef DATE_H
@@ -18,7 +18,7 @@ namespace date {
       int _month;
       int _day;
    public:
-      Date (int month, int day, int year);
+      Date (int year, int month, int day);
       Date() = default;
       ~Date();
       int year() const;
