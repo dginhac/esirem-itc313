@@ -4,7 +4,7 @@
  * @Email:  dginhac@u-bourgogne.fr
  * @Project: C++ Programming - ESIREM 3A IT
  * @Last modified by:   d0m
- * @Last modified time: 2020-09-07T23:23:01+02:00
+ * @Last modified time: 2020-09-23T11:41:05+02:00
  */
 
 #include <iostream>
@@ -19,12 +19,10 @@ int main() {
 	std::cout << "Christmas is " << christmas.toString() << std::endl;
 	Date next = christmas.nextDay();
 	std::cout << "After Christmas is " << next.toString() << std::endl;
-	try {
-		Date not_valid(4,31);
-		std::cout << "31/4 is " << not_valid.toString() << std::endl;
-	} catch (std::string msg) {
-		std::cerr << msg << std::endl;
-	}
+
+	Date not_valid(4,31);
+	//std::cout << "Not Valid is " << not_valid.toString() << std::endl;
+	std::cout << "That's all folks" << '\n';
 
 
 	return 0;

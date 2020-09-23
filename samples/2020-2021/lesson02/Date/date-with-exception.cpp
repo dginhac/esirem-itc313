@@ -4,12 +4,12 @@
  * @Email:  dginhac@u-bourgogne.fr
  * @Project: C++ Programming - ESIREM 3A IT
  * @Last modified by:   d0m
- * @Last modified time: 2020-09-18T08:56:56+02:00
+ * @Last modified time: 2020-09-23T11:31:15+02:00
  */
 
 #include "date.h"
 
-Date::Date(int month, int day) {
+bool Date::checkDate(int month, int day) const {
 	bool status=true;
 
 	if ((month == 1 || month == 3 || month == 5 || month == 7
@@ -26,21 +26,32 @@ Date::Date(int month, int day) {
 	if ((month < 1) || (month > 12)) {
 		status = false;
 	}
-
-	//assert(status==true);
-	if (status==false) {
-		std::string msg = "ERROR:" + std::to_string(month) + "/" +
-								std::to_string(day) + " is not a valid date!";
-		throw std::string(msg);
-	}
-	else {
-		_month = month;
-		_day = day;
-	}
-
-
-
+	return status;
 }
+
+
+Date::Date(int month, int day) {
+	try {
+		bool status = checkDate(month, day);
+		if (status==false) {
+			std::string msg = "ERROR:" + std::to_string(month) + "/" +
+									std::to_string(day) + " is not a valid date!";
+			throw std::string(msg);
+		}
+		else {
+			_month = month;
+			_day = day;
+		}
+	}
+	catch (std::string msg) {
+		std::cerr << msg << std::endl;
+	}
+}
+
+Date::~Date() {
+	//std::cout << "  Destructor: " << _month << "/" << _day << '\n';
+}
+
 int Date::getMonth() const {
 	return _month;
 }

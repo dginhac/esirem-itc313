@@ -4,12 +4,12 @@
  * @Email:  dginhac@u-bourgogne.fr
  * @Project: C++ Programming - ESIREM 3A IT
  * @Last modified by:   d0m
- * @Last modified time: 2020-09-18T08:59:53+02:00
+ * @Last modified time: 2020-09-23T11:14:40+02:00
  */
 #include "date.h"
 #include <iostream>
 
-bool Date::checkDate(int month, int day) {
+bool Date::checkDate(int month, int day) const {
 	bool status=true;
 
 	if ((month == 1 || month == 3 || month == 5 || month == 7
