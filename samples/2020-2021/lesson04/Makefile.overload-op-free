@@ -1,0 +1,29 @@
+# Makefile with dependencies management (Q4)
+
+CXX        = clang++
+CXXFLAGS   = -Wall  -std=c++14
+DEPFLAGS   = -MMD
+LDFLAGS    =
+SRCS       = overload-op-free.cpp  overload-op-free-main.cpp
+OBJS       = $(SRCS:.cpp=.o)
+TARGET     = overload-op-free-main
+DEPS	   = $(OBJS:.o=.d)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $(TARGET) $(OBJS)
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) $(DEPFLAGS) -c  $<
+
+clean:
+	rm -f *.o *.d
+
+mrproper: clean
+	rm -f $(TARGET)
+
+exe: $(TARGET)
+	./$(TARGET)
+
+-include $(DEPS)

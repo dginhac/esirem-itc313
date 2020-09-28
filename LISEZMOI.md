@@ -8,6 +8,12 @@ Ils sont amenés à changer au fur et a mesure de l'évolution du contenu de ce 
 Ils sont distribués en GPL v3 https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) et peuvent bien évidemment être utilisés par toute personne souhaitant se former à la programmation C++. 
 
 ## Cours
+
+### Dernières nouvelles:
+
+* 29/09/2020 : Les leçons 00 à 04 ont été mises à jour et sont désormais disponibles au téléchargement
+
+### Fichiers à télécharger
 Les cours sont organisés en leçons, chacune d'elles étant dédiées à l'étude d'un concept particulier de la programmation C++.
 
 Les supports de cours au format pdf (en anglais) sont accessibles pour téléchargement :
