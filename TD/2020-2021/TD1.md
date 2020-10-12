@@ -80,7 +80,7 @@ Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
 Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
 
 1. Créer une classe Triangle qui hérite de Polygon.
-2. Ecrire une méthode qui calcule l'aire du triangle (voir [http://maths-pour-tous.wifeo.com/documents/laire-d1-triangle.pdf] (http://maths-pour-tous.wifeo.com/documents/laire-d1-triangle.pdf) pour les formules)
+2. Ecrire une méthode qui calcule l'aire du triangle (voir [http://maths-pour-tous.wifeo.com/documents/laire-d1-triangle.pdf] pour les formules)
 
 ## Question 7 : Création d'une classe Rectangle
 Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
