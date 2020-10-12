@@ -40,7 +40,7 @@ Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
 
 ## Question 2 : Création d'un Makefile pour la compilation
 
-Le [Makefile](../utils/Makefile) final utilisable pour la suite des TD/TP est téléchargeable dans le dossier [utils](../utils/).
+Le [Makefile](../../utils/Makefile) final utilisable pour la suite des TD/TP est téléchargeable dans le dossier [utils](../../utils/).
 
 1. Création d'un Makefile basique permettant la compilation des fichiers cpp.
 2. Ajout de fonctionnalités (all, clean, mrproper, exe) au Makefile basique
@@ -49,7 +49,7 @@ Le [Makefile](../utils/Makefile) final utilisable pour la suite des TD/TP est t�
 
 ## Question 3 : Tuto git/GitHub
 
-Un [tutorial](../utils/github.md) spécifique git/GitHub est disponible dans le dossier [utils](../utils/).
+Un [tutorial](../../utils/github.md) spécifique git/GitHub est disponible dans le dossier [utils](../../utils/).
 
 1. Découverte de git avec utilisation du terminal et de SublimeMerge
 2. Découverte de github
@@ -71,6 +71,7 @@ Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
 
 1. Créer une classe Polygon possédant comme variable membre un tableau de points contenant les coordonnées de chacun des sommets. Vous pouvez utiliser un tableau style langage-C, un tableau std::array ou un vecteur std::vect.
 2. Ecrire la ou les méthodes d'initialisation de la classe Polygone, ainsi que ses getters/setters si besoin
+3. Ecrire une méthode qui permet de modifier les coordonnées d'un point du Polygone
 3. Ecrire une methode qui renvoie le nombre de sommets du polygone
 3. Ecrire une méthode qui calculera le périmètre d'un polygone
 
