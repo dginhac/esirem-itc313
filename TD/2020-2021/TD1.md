@@ -69,7 +69,30 @@ Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
 
 Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
 
-1. Créer une classe Polygone possédant comme variables membres un entier positif correspond au nombre de sommets du polygone et un tableau de points contenant les coordonnées de chacun des sommets. Vous pouvez soit borner la taille à 10 sommets max (i.e. un decagone) soit ne pas borner.
-2. Ecrire la ou les méthodes d'initialisation de la classe Polygone
+1. Créer une classe Polygon possédant comme variable membre un tableau de points contenant les coordonnées de chacun des sommets. Vous pouvez utiliser un tableau style langage-C, un tableau std::array ou un vecteur std::vect.
+2. Ecrire la ou les méthodes d'initialisation de la classe Polygone, ainsi que ses getters/setters si besoin
+3. Ecrire une methode qui renvoie le nombre de sommets du polygone
 3. Ecrire une méthode qui calculera le périmètre d'un polygone
-4. Modifier la classe Polygone pour qu’elle utilise un tableau std ::array, un vecteur std::vect ou un tableau de taille quelconque avec un pointeur. Quels sont les avantages et les inconvénients de chacune des méthodes ?
+
+## Question 6 : Création d'une classe Triangle
+
+Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
+
+1. Créer une classe Triangle qui hérite de Polygon.
+2. Ecrire une méthode qui calcule l'aire du triangle
+
+## Question 7 : Création d'une classe Rectangle
+Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
+
+1. Créer une classe Rectangle qui hérite de Polygon. Attention, vous devez vérifier, que les 4 points passés au constructeur constituent bien un Rectangle
+2. Ecrire une méthode qui renvoie la longueur du Rectangle
+3. Ecrire une méthode qui renvoie la largeur du Rectangle
+2. Ecrire une méthode qui calcule l'aire du Rectangle
+
+## Question 8 : Création d'une classe Carré
+Pour chaque question, ne pas oublier de tester le code écrit avec des exemples.
+
+1. Créer une classe Carré. Attention, vous devez vérifier, que les 4 points passés au constructeur constituent bien un Carré
+2. Ecrire une méthode qui renvoie le coté du Carré
+2. Ecrire une méthode qui calcule l'aire du Carré
+
