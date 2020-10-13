@@ -31,21 +31,14 @@ bool Date::checkDate(int month, int day) const {
 
 
 Date::Date(int month, int day) {
-	try {
-		bool status = checkDate(month, day);
-		if (status==false) {
-			std::string msg = "ERROR:" + std::to_string(month) + "/" +
-									std::to_string(day) + " is not a valid date!";
-			throw std::string(msg);
-		}
-		else {
-			_month = month;
-			_day = day;
-		}
+	bool status = checkDate(month, day);
+	if (status==false) {
+		std::string msg = "ERROR:" + std::to_string(month) + "/" +
+								std::to_string(day) + " is not a valid date!";
+		throw std::string(msg);
 	}
-	catch (std::string msg) {
-		std::cerr << msg << std::endl;
-	}
+	_month = month;
+	_day = day;
 }
 
 Date::~Date() {
