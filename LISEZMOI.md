@@ -11,6 +11,7 @@ Ils sont distribués en GPL v3 https://www.gnu.org/licenses/](https://www.gnu.or
 
 ### Dernières nouvelles:
 
+* 02/11/2020 : La leçon 05 (cours et examples de code) a été mise en ligne.
 * 29/09/2020 : Les leçons 00 à 04 ont été mises à jour et sont désormais disponibles au téléchargement
 
 ### Fichiers à télécharger
@@ -22,11 +23,11 @@ Les supports de cours au format pdf (en anglais) sont accessibles pour télécha
 * Lesson 01: Hello, world! - 10 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
 * Lesson 02: Types utilisateur - 14.4 MO -[http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
 * Lesson 03: Héritage - 8.9 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
-* Lesson 04: Polymorphisme - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
-* Lesson 05: Librairie STL - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
-* Lesson 06: Indirection - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
-* Lesson 07: Templates - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf)
-* Lesson 08: Exceptions - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf)
+* Lesson 04: Polymorphisme - 10.5 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
+* Lesson 05: Librairie STL - 14.8 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
+* Lesson 06: Indirection - Non disponible - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
+* Lesson 07: Templates - Non disponible - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf)
+* Lesson 08: Exceptions - Non disponible - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf)
 * Lesson 09: A suivre ...
 
 Ces supports de cours sont complétés par deux présentations additionnelles : 

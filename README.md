@@ -13,6 +13,7 @@ They are distributed under the terms of the GPLv3 - [https://www.gnu.org/license
 
 ### Latest NEWS: 
 
+* 2020/11/02: Lesson 05 (keynote and samples) has been uploaded.
 * 2020/09/29: Lesson 00 to Lesson 04 have been updated and are now available for download.
 
 ### Files to download
@@ -23,7 +24,7 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lesson 02: User-defined types - 14.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
 * Lesson 03: Inheritance - 8.9 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
 * Lesson 04: Polymorphism - 10.5 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
-* Lesson 05: STL Containers - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
+* Lesson 05: STL Containers - 14.8 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
 * Lesson 06: Indirection - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
 * Lesson 07: Templates - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf)
 * Lesson 08: Exceptions - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf)
