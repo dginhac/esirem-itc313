@@ -14,7 +14,7 @@ They are distributed under the terms of the GPLv3 - [https://www.gnu.org/license
 ### Latest NEWS: 
 
 * 2020/11/02: A [Youtube Channel](https://www.youtube.com/watch?v=EKfElV3zBGA&list=PL0Z31Yjf1Bk3PYn86ufP8mTm0w9iAjhzc) with live course recordings has been added.
-* 2020/11/02: [TD2](TD/2020-2021/td2.md) has been added.
+* 2020/11/02: [TD2](TD/2020-2021/TD2.md) has been added.
 * 2020/11/02: Lesson 05 (keynote and samples) has been uploaded.
 * 2020/09/29: Lesson 00 to Lesson 04 have been updated and are now available for download.
 
