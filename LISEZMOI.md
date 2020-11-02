@@ -11,6 +11,8 @@ Ils sont distribués en GPL v3 https://www.gnu.org/licenses/](https://www.gnu.or
 
 ### Dernières nouvelles:
 
+* 02/11/2020: Une  [PlayList Youtube ](https://www.youtube.com/watch?v=EKfElV3zBGA&list=PL0Z31Yjf1Bk3PYn86ufP8mTm0w9iAjhzc) regroupant les enregistrements live des cours a éte mise en ligne.
+* 02/11/2020 : Le [TD2](TD/2020-2021/td2.md) a été mis en ligne.
 * 02/11/2020 : La leçon 05 (cours et examples de code) a été mise en ligne.
 * 29/09/2020 : Les leçons 00 à 04 ont été mises à jour et sont désormais disponibles au téléchargement
 

@@ -13,6 +13,8 @@ They are distributed under the terms of the GPLv3 - [https://www.gnu.org/license
 
 ### Latest NEWS: 
 
+* 2020/11/02: A [Youtube Channel](https://www.youtube.com/watch?v=EKfElV3zBGA&list=PL0Z31Yjf1Bk3PYn86ufP8mTm0w9iAjhzc) with live course recordings has been added.
+* 2020/11/02: [TD2](TD/2020-2021/td2.md) has been added.
 * 2020/11/02: Lesson 05 (keynote and samples) has been uploaded.
 * 2020/09/29: Lesson 00 to Lesson 04 have been updated and are now available for download.
 
@@ -37,7 +39,7 @@ Two additional presentations are also available:
 * Introduction on git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - A french [tutorial](utils/github.md) on git/GitHub with 2 developers is also available in [utils](utils).
 
 ## Past lectures (2019-2020)
-Past lectures are also available in pdf format for download at the following url [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf] (http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
+Past lectures are also available in pdf format for download at the following url [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf](http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
 Do not forget to replace x by its value. 
 
 ##  Other Content 
