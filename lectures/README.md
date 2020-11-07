@@ -8,7 +8,7 @@ Certains des cours sont accessibles pour téléchargement ici
 * Lesson 03: Inheritance - 8.9 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
 * Lesson 04: Polymorphism - 10.5 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
 * Lesson 05: STL Containers - 14.8 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
-* Lesson 06: Indirection - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
+* Lesson 06: Indirection - 12.6 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
 * Lesson 07: Templates - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf)
 * Lesson 08: Exceptions - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf)
 * Lesson 09: to be continued...

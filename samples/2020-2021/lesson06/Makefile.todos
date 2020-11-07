@@ -1,0 +1,29 @@
+# Makefile with dependencies management (Q4)
+
+CXX        = clang++
+CXXFLAGS   = -std=c++11
+DEPFLAGS   = -MMD
+LDFLAGS    =
+SRCS       = date.cpp todos.cpp todos-main.cpp todo.cpp
+OBJS       = $(SRCS:.cpp=.o)
+TARGET     = todos
+DEPS	   = $(OBJS:.o=.d)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $(TARGET) $(OBJS)
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) $(DEPFLAGS) -c  $<
+
+clean:
+	rm -f *.o *.d
+
+mrproper: clean
+	rm -f $(TARGET)
+
+exe: $(TARGET)
+	./$(TARGET)
+
+-include $(DEPS)

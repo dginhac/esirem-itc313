@@ -7,14 +7,15 @@ Les documents disponibles dans ce dépot GitHub sont à destination des étudian
 Ils sont amenés à changer au fur et a mesure de l'évolution du contenu de ce module. 
 Ils sont distribués en GPL v3 https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) et peuvent bien évidemment être utilisés par toute personne souhaitant se former à la programmation C++. 
 
-## Cours
+## Dernières nouvelles:
 
-### Dernières nouvelles:
-
+* 07/11/2020 : La leçon 06 (cours et examples de code) a été mise en ligne.
 * 02/11/2020: Une  [PlayList Youtube ](https://www.youtube.com/watch?v=EKfElV3zBGA&list=PL0Z31Yjf1Bk3PYn86ufP8mTm0w9iAjhzc) regroupant les enregistrements live des cours a éte mise en ligne.
 * 02/11/2020 : Le [TD2](TD/2020-2021/TD2.md) a été mis en ligne.
 * 02/11/2020 : La leçon 05 (cours et examples de code) a été mise en ligne.
 * 29/09/2020 : Les leçons 00 à 04 ont été mises à jour et sont désormais disponibles au téléchargement
+
+## Cours
 
 ### Fichiers à télécharger
 Les cours sont organisés en leçons, chacune d'elles étant dédiées à l'étude d'un concept particulier de la programmation C++.
@@ -27,7 +28,7 @@ Les supports de cours au format pdf (en anglais) sont accessibles pour télécha
 * Lesson 03: Héritage - 8.9 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
 * Lesson 04: Polymorphisme - 10.5 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
 * Lesson 05: Librairie STL - 14.8 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
-* Lesson 06: Indirection - Non disponible - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
+* Lesson 06: Indirection - 12.6 MO - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
 * Lesson 07: Templates - Non disponible - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf)
 * Lesson 08: Exceptions - Non disponible - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf)
 * Lesson 09: A suivre ...
