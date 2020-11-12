@@ -1,6 +1,4 @@
-## TP3 C++ : Alea Jacta Est (2*4h)
-
-[_http://ginhac.com/teaching/ITC313/TP/2020-2021/TP3.pdf_](http://ginhac.com/teaching/ITC313/TP/2020-2021/TP3.pdf)
+## TP3 C++ : Alea Jacta Est 
 
 # Préambule
 

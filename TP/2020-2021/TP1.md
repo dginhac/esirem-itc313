@@ -1,8 +1,4 @@
-# TP1 C++ : Ne vous endormez pas (2*4h)
-
-[_http://ginhac.com/teaching/ITC313/TP/2020-2021/TP1.pdf_](http://ginhac.com/teaching/ITC313/TP/2020-2021/TP1.pdf)
-
-# Préambule
+# TP1 C++ : Ne vous endormez pas 
 
 # Préambule
 

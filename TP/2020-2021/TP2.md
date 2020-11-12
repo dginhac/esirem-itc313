@@ -1,6 +1,4 @@
-# TP2 C++ : EasyStore (2*4h)
-
-[_http://ginhac.com/teaching/ITC313/TP/2020-2021/TP2.pdf_](http://ginhac.com/teaching/ITC313/TP/2020-2021/TP2.pdf)
+# TP2 C++ : EasyStore 
 
 # Préambule
 
