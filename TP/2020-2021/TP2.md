@@ -1,6 +1,6 @@
 # TP2 C++ : EasyStore (2*4h)
 
-[_http://ginhac.com/teaching/ITC313/2019-2020/TP2.pdf_](http://ginhac.com/teaching/ITC313/2019-2020/TP2.pdf)
+[_http://ginhac.com/teaching/ITC313/TP/2020-2021/TP2.pdf_](http://ginhac.com/teaching/ITC313/TP/2020-2021/TP2.pdf)
 
 # Préambule
 
@@ -8,32 +8,18 @@
 
 Avant chaque écriture de programme (quel que soit le langage), il faut successivement :
 
-(a) Analyser le problème à résoudre
+1. Analyser le problème à résoudre
+2. Proposer un algorithme / méthode permettant de résoudre le problème posé.
+3. En déduire le programme associé.
+4. Simuler l'exécution du programme avec des valeurs assez variées.
+5. S'il y a des erreurs revenir au point (3), (2) ou (1).
 
-(b) Proposer un algorithme / méthode permettant de résoudre le problème posé.
+Les points (1) et (2) doivent se dérouler loin du clavier car ils sont totalement indépendants de tout langage de programmation. Un problème bien compris est ensuite facile à transcrire dans un langage ou un autre !
 
-(c) En déduire le programme associé.
-
-(d) Simuler l'exécution du programme avec des valeurs assez variées.
-
-(e) S'il y a des erreurs revenir au point (c), (b) ou (a).
-
-Les points (a) et (b) doivent se dérouler loin du clavier car ils sont totalement indépendants de tout langage de programmation. Un problème bien compris est ensuite facile à transcrire dans un langage ou un autre !
-
-# Préambule à tous les TP
-
-1. La version numérique des sujets de TP est disponible sur le compte GitHub de l'enseignant : [https://github.com/dginhac/esirem-itc313](https://github.com/dginhac/esirem-itc313)
-2. Vous utiliserez Git/GitHub en appliquant ce que vous avez vu en TD. N'oubliez pas de faire des « commits » réguliers. Avant la fin de la première séance, vous enverrez un email à votre Professeur ([dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)) pour lui indiquer le nom du compte GitHub sur lequel il pourra constater l'avancée du travail. Si vous créez un projet GitHub privé, vous devrez inviter le Professeur pour qu'il puisse accéder à votre code.
-3. Sur votre compte GitHub, vous nommerez les projets ITC313-TP1, ITC313-TP2, etc. afin que le suivi des projets par l'enseignant puisse se faire facilement pour toutes les seances.
-4. Pour chaque TP, vous indiquerez l'avancée de votre travail dans le fichier README.md de GitHub, ce qui permettra à l'enseignement de voir en un coup d'œil l'avancée de votre travail.
-5. Chaque commit devra comporter dans son message d'information le numéro de la question. Par exemple « Q1.a : création de la classe XXXX », « Q2.b : ajout de la méthode YYYY à la classe XXXX »
-6. Pour effectuer la compilation de vos fichiers, vous devrez utiliser le « Makefile » fourni et l'adapter en fonction des noms des fichiers que vous allez créer. Soyez tout de même logique en appelant les fichiers .h et .cpp du nom des classes que vous créez.
-7. Toutes les variables membres de toutes les classes créées dans ce TP seront définies en « private ». Il est donc nécessaire de créer certains getters/setters pour pouvoir accéder à ces variables membres.
-8. N'oubliez pas de mettre des commentaires dans vos codes. Ils vous permettront (ainsi qu'à l'enseignant qui vous corrigera) de bien comprendre ce que vous avez écrit.
 
 # Introduction
 
-Ce TP de 8h consiste à concevoir une application de magasin en ligne nommé EasyStore. Ce TP vous permettra d'utiliser les références, les pointeurs et les allocations dynamiques.
+Ce TP consiste à concevoir une application de magasin en ligne nommé EasyStore. Ce TP vous permettra d'utiliser les références, les pointeurs et les allocations dynamiques.
 
 La gestion de ce magasin nécessite la création de plusieurs classes : Produit, Client, Commande.
 

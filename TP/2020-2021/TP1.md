@@ -1,6 +1,8 @@
 # TP1 C++ : Ne vous endormez pas (2*4h)
 
-[_http://ginhac.com/teaching/ITC313/2019-2020/TP1.pdf_](http://ginhac.com/teaching/ITC313/2019-2020/TP1.pdf)
+[_http://ginhac.com/teaching/ITC313/TP/2020-2021/TP1.pdf_](http://ginhac.com/teaching/ITC313/TP/2020-2021/TP1.pdf)
+
+# Préambule
 
 # Préambule
 
@@ -8,33 +10,18 @@
 
 Avant chaque écriture de programme (quel que soit le langage), il faut successivement :
 
-(a) Analyser le problème à résoudre
+1. Analyser le problème à résoudre
+2. Proposer un algorithme / méthode permettant de résoudre le problème posé.
+3. En déduire le programme associé.
+4. Simuler l'exécution du programme avec des valeurs assez variées.
+5. S'il y a des erreurs revenir au point (3), (2) ou (1).
 
-(b) Proposer un algorithme / méthode permettant de résoudre le problème posé.
+Les points (1) et (2) doivent se dérouler loin du clavier car ils sont totalement indépendants de tout langage de programmation. Un problème bien compris est ensuite facile à transcrire dans un langage ou un autre !
 
-(c) En déduire le programme associé.
-
-(d) Simuler l'exécution du programme avec des valeurs assez variées.
-
-(e) S'il y a des erreurs revenir au point (c), (b) ou (a).
-
-Les points (a) et (b) doivent se dérouler loin du clavier car ils sont totalement indépendants de tout langage de programmation. Un problème bien compris est ensuite facile à transcrire dans un langage ou un autre !
-
-# Préambule à tous les TP
-
-1. La version numérique des sujets de TP est disponible sur le compte GitHub de l'enseignant : [https://github.com/dginhac/esirem-itc313](https://github.com/dginhac/esirem-itc313)
-2. Vous travaillerez en binôme. S'il y a assez de PC ou si vous utilisez votre propre ordinateur, vous pouvez travailler chacun de votre côté mais vous devrez mettre en commun les développements faits.
-3. Vous profiterez de ce TP pour utiliser Git/GitHub en appliquant ce que vous avez vu en TD. N'oubliez pas de faire des « commits » réguliers. Avant la fin de la première séance, vous enverrez un email à votre Professeur ([dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)) pour lui indiquer le nom du compte GitHub sur lequel il pourra constater l'avancée du travail. Si vous créez un projet GitHub privé, vous devrez inviter le Professeur pour qu'il puisse accéder à votre code.
-4. Sur votre compte GitHub, vous nommerez les projets ITC313-TP1, ITC313-TP2, etc. afin que le suivi des projets par l'enseignant puisse se faire facilement pour toutes les seances.
-5. Pour chaque TP, vous indiquerez l'avancée de votre travail dans le fichier README.md de GitHub, ce qui permettra à l'enseignement de voir en un coup d'œil l'avancée de votre travail.
-6. Chaque commit devra comporter dans son message d'information le numéro de la question. Par exemple « Q1.a : création de la classe XXXX », « Q2.b : ajout de la méthode YYYY à la classe XXXX »
-7. Pour effectuer la compilation de vos fichiers, vous devrez utiliser le « Makefile » fourni et l'adapter en fonction des noms des fichiers que vous allez créer. Soyez tout de même logique en appelant les fichiers .h et .cpp du nom des classes que vous créez.
-8. Toutes les variables membres de toutes les classes créées dans ce TP seront définies en « private ». Il est donc nécessaire de créer certains getters/setters pour pouvoir accéder à ces variables membres.
-9. N'oubliez pas de mettre des commentaires dans vos codes. Ils vous permettront (ainsi qu'à l'enseignant qui vous corrigera) de bien comprendre ce que vous avez écrit.
 
 # Introduction
 
-Ce TP de 8h consiste à concevoir une application de gestion des réservations d'un hôtel.
+Ce TP consiste à concevoir une application de gestion des réservations d'un hôtel.
 
 Un Hôtel peut être constitué des informations suivantes :
 
@@ -80,11 +67,7 @@ Pour chacune des questions, on suppose que tous les paramètres passés aux cons
 
 ## Question 1 : Création de la classe Date
 
-1.a) En vous inspirant de la classe vue en CM, créer la classe Date avec ses 3 variables membres, son constructeur et ses fonctions getters.
-
-1.b) Ajouter une méthode permettant de modifier une date.
-
-1.c) Créer un programme principal permettant de tester et valider le code de la classe Date.
+1.a) Reprenez la classe Date vue en cours et vérifiez son bon fonctionnement avec un programme de test.
 
 ## Question 2 : Création de la classe Client
 
@@ -128,11 +111,11 @@ Maintenant que toutes les classes de base ont été développées, vous pouvez c
 
 ## Question 6 : Création d'un hôtel et de clients
 
-6.a) Dans un programme principal, créer un hôtel avec un tableau (std ::array) de 10 chambres réparties en 3 « Single », 5 « Double » et 2 « Suite » avec des prix différents (Single au prix de 100$, Double au prix de 125$ et Suite au prix de 210$ par exemple).
+6.a) Dans un programme principal, créer un hôtel avec un tableau (array ou vector) de 10 chambres réparties en 3 « Single », 5 « Double » et 2 « Suite » avec des prix différents (Single au prix de 100$, Double au prix de 125$ et Suite au prix de 210$ par exemple).
 
 6.b) Ajouter une méthode à la classe Chambre permettant de faire l'affichage à l'écran de la liste des informations d'une chambre. Ajouter également une méthode à la classe Hotel permettant de faire l'affichage à l'écran de la liste de toutes les informations de l'hotel. Utiliser ces méthodes pour vérifier que les informations saisies à la question 6.a sont bien correctes.
 
-6.c) Créer ensuite une liste d'une dizaine de clients sous la forme d'un tableau (std ::array).
+6.c) Créer ensuite une liste d'une dizaine de clients sous la forme d'un tableau (array ou vector).
 
 6.d) Ajouter une méthode à la classe Client permettant de faire l'affichage à l'écran de la liste des informations d'un client. Utiliser cette méthode pour vérifier que les informations saisies à la question 6.c sont bien correctes.
 
@@ -140,7 +123,7 @@ Maintenant que toutes les classes de base ont été développées, vous pouvez c
 
 Les réservations seront stockées dans un tableau dynamique de type std ::vector.
 
-7.a) Ecrire le code permettant de saisir au clavier les date d'une réservation dans l'hôtel créé à la question 6.
+7.a) Ecrire le code permettant de saisir au clavier les dates d'une réservation dans l'hôtel créé à la question 6.
 
 7.b) Créer la fonction permettant de vérifier si une date est bien valide. Cette fonction renverra un booléen (true ou false). Par exemple 12 Décembre 2012 renverra « true » alors que 31 novembre 2019 renverra « false ». Pour des raisons de simplicité, les années bissextiles peuvent être ignorées. Insérer l'appel de cette fonction dans le code écrit à la question 7.a et redemander la saisie de la date si elle n'est pas conforme.
 

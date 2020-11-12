@@ -1,6 +1,6 @@
 ## TP3 C++ : Alea Jacta Est (2*4h)
 
-[_http://ginhac.com/teaching/ITC313/2019-2020/TP3.pdf_](http://ginhac.com/teaching/ITC313/2019-2020/TP3.pdf)
+[_http://ginhac.com/teaching/ITC313/TP/2020-2021/TP3.pdf_](http://ginhac.com/teaching/ITC313/TP/2020-2021/TP3.pdf)
 
 # Préambule
 
@@ -8,34 +8,20 @@
 
 Avant chaque écriture de programme (quel que soit le langage), il faut successivement :
 
-(a) Analyser le problème à résoudre
+1. Analyser le problème à résoudre
+2. Proposer un algorithme / méthode permettant de résoudre le problème posé.
+3. En déduire le programme associé.
+4. Simuler l'exécution du programme avec des valeurs assez variées.
+5. S'il y a des erreurs revenir au point (3), (2) ou (1).
 
-(b) Proposer un algorithme / méthode permettant de résoudre le problème posé.
+Les points (1) et (2) doivent se dérouler loin du clavier car ils sont totalement indépendants de tout langage de programmation. Un problème bien compris est ensuite facile à transcrire dans un langage ou un autre !
 
-(c) En déduire le programme associé.
-
-(d) Simuler l'exécution du programme avec des valeurs assez variées.
-
-(e) S'il y a des erreurs revenir au point (c), (b) ou (a).
-
-Les points (a) et (b) doivent se dérouler loin du clavier car ils sont totalement indépendants de tout langage de programmation. Un problème bien compris est ensuite facile à transcrire dans un langage ou un autre !
-
-# Préambule
-
-1. La version numérique des sujets de TP est disponible sur le compte GitHub de l'enseignant : [https://github.com/dginhac/esirem-itc313](https://github.com/dginhac/esirem-itc313)
-2. Vous utiliserez Git/GitHub en appliquant ce que vous avez vu en TD. N'oubliez pas de faire des « commits » réguliers. Avant la fin de la première séance, vous enverrez un email à votre Professeur ([dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)) pour lui indiquer le nom du compte GitHub sur lequel il pourra constater l'avancée du travail. Si vous créez un projet GitHub privé, vous devrez inviter le Professeur pour qu'il puisse accéder à votre code.
-3. Sur votre compte GitHub, vous nommerez les projets ITC313-TP1, ITC313-TP2, etc. afin que le suivi des projets par l'enseignant puisse se faire facilement pour toutes les seances.
-4. Pour chaque TP, vous indiquerez l'avancée de votre travail dans le fichier README.md de GitHub, ce qui permettra à l'enseignement de voir en un coup d'œil l'avancée de votre travail.
-5. Chaque commit devra comporter dans son message d'information le numéro de la question. Par exemple « Q1.a : création de la classe XXXX », « Q2.b : ajout de la méthode YYYY à la classe XXXX »
-6. Pour effectuer la compilation de vos fichiers, vous devrez utiliser le « Makefile » fourni et l'adapter en fonction des noms des fichiers que vous allez créer. Soyez tout de même logique en appelant les fichiers .h et .cpp du nom des classes que vous créez.
-7. Toutes les variables membres de toutes les classes créées dans ce TP seront définies en « private ». Il est donc nécessaire de créer certains getters/setters pour pouvoir accéder à ces variables membres.
-8. N'oubliez pas de mettre des commentaires dans vos codes. Ils vous permettront (ainsi qu'à l'enseignant qui vous corrigera) de bien comprendre ce que vous avez écrit.
 
 # Introduction
 
-Le but de ce TP de 8h est d'implémenter plusieurs algorithmes de chiffrement de données. Pour cela, un [document](../cryptographie.pdf) expliquant plusieurs techniques de cryptographie vous est fourni. Il est vital de prendre le temps nécessaire pour le lire et comprendre les techniques présentées.
+Le but de ce TP est d'implémenter plusieurs algorithmes de chiffrement de données. Pour cela, un [document](../cryptographie.pdf) expliquant plusieurs techniques de cryptographie vous est fourni. Il est vital de prendre le temps nécessaire pour le lire et comprendre les techniques présentées.
 
-L'objectif principal de ce TP est d'utiliser de manière efficace les compétences que vous avez acquises dans ce module pour résoudre des problèmes de complexité croissante. De plus, ce TP vous permettra de mettre en œuvre la notion d'héritage de classes. L'héritage est un concept très important en programmation orienté objet (il sera abordé lors du dernier cours en janvier 2020). Pour plus d'information sur l'héritage en C++, vous pouvez consulter le document suivant : [https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1898475-decouvrez-lheritage](https://openclassrooms.com/fr/courses/1894236-programmez-avec-le-langage-c/1898475-decouvrez-lheritage)
+L'objectif principal de ce TP est d'utiliser de manière efficace les compétences que vous avez acquises dans ce module pour résoudre des problèmes de complexité croissante. De plus, ce TP vous permettra de mettre en œuvre la notion d'héritage de classes. 
 
 L'implémentation de plusieurs algorithmes de chiffrement sera réalisée de la manière suivante :
 
@@ -74,9 +60,9 @@ public:
 
 protected:
 
-    std::string m\_plain;
+    std::string \_plain;
 
-    std::string m\_cipher;
+    std::string \_cipher;
 
 };
 ```
