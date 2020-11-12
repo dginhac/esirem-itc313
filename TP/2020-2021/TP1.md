@@ -113,23 +113,19 @@ Maintenant que toutes les classes de base ont été développées, vous pouvez c
 
 6.a) Dans un programme principal, créer un hôtel avec un tableau (array ou vector) de 10 chambres réparties en 3 « Single », 5 « Double » et 2 « Suite » avec des prix différents (Single au prix de 100$, Double au prix de 125$ et Suite au prix de 210$ par exemple).
 
-6.b) Ajouter une méthode à la classe Chambre permettant de faire l'affichage à l'écran de la liste des informations d'une chambre. Ajouter également une méthode à la classe Hotel permettant de faire l'affichage à l'écran de la liste de toutes les informations de l'hotel. Utiliser ces méthodes pour vérifier que les informations saisies à la question 6.a sont bien correctes.
+6.b) Ajouter une surcharge de l'operateur << à la classe Chambre permettant de faire l'affichage à l'écran de la liste des informations d'une chambre. Ajouter également une surcharge de l'operateur << à la classe Hotel permettant de faire l'affichage à l'écran de la liste de toutes les informations de l'hotel. Utiliser ces méthodes pour vérifier que les informations saisies à la question 6.a sont bien correctes.
 
 6.c) Créer ensuite une liste d'une dizaine de clients sous la forme d'un tableau (array ou vector).
 
-6.d) Ajouter une méthode à la classe Client permettant de faire l'affichage à l'écran de la liste des informations d'un client. Utiliser cette méthode pour vérifier que les informations saisies à la question 6.c sont bien correctes.
+6.d) Ajouter une surcharge de l'operateur << à la classe Client permettant de faire l'affichage à l'écran de la liste des informations d'un client. Utiliser cette méthode pour vérifier que les informations saisies à la question 6.c sont bien correctes.
 
 ## Question 7 : Validation des dates de réservations
 
 Les réservations seront stockées dans un tableau dynamique de type std ::vector.
 
-7.a) Ecrire le code permettant de saisir au clavier les dates d'une réservation dans l'hôtel créé à la question 6.
+7.a) Ecrire le code permettant de saisir au clavier les dates d'une réservation dans l'hôtel créé à la question 6. N'oubliez pas de vérifier la conformité des dates saisies (fonction CheckDate) ainsi que la chronologie des dates saisies (operateur de comparaison). Si les dates ne sont pas valides, redemander la saisie.
 
-7.b) Créer la fonction permettant de vérifier si une date est bien valide. Cette fonction renverra un booléen (true ou false). Par exemple 12 Décembre 2012 renverra « true » alors que 31 novembre 2019 renverra « false ». Pour des raisons de simplicité, les années bissextiles peuvent être ignorées. Insérer l'appel de cette fonction dans le code écrit à la question 7.a et redemander la saisie de la date si elle n'est pas conforme.
-
-7.c) Créer la fonction permettant de comparer si la date de fin est postérieure à la date de début de séjour. Par exemple, cette fonction renverra « true » si la date de fin est le 4 mai 2020 et la date de début est le 30 avril 2020. Insérer l'appel de cette fonction dans le code écrit à la question 7.a et redemander la saisie de la date de fin si elle n'est pas postérieure.
-
-7.d) Créer la fonction permettant de calculer le nombre de nuits du séjour dès que les 2 dates sont conformes. Insérer l'appel de cette fonction dans le code écrit à la question 7.a afin d'indiquer au client le nombre de nuits de la réservation.
+7.b) Créer la fonction permettant de calculer le nombre de nuits du séjour dès que les 2 dates sont conformes. Insérer l'appel de cette fonction dans le code écrit à la question 7.a afin d'indiquer au client le nombre de nuits de la réservation.
 
 ## Question 8 : Choix d'une chambre
 
