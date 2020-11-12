@@ -1,6 +1,6 @@
 # Tutorial git/GitHub
  
-[github.md](../utils/github.md) is a french tutorial for 2 developers collaborating on the same code.
+[github.md](../../utils/github.md) is a french tutorial for 2 developers collaborating on the same code.
 
 # Lab Works - TP
 
