@@ -60,7 +60,7 @@ The lectures are licensed under a
 
 
 [![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
-[![License: GPL v3][gpl-3-shield]][gpl-3]
+[![License: GPL v3][gpl-3-image]][gpl-3]
 
 [cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
@@ -68,3 +68,4 @@ The lectures are licensed under a
 
 [gpl-3]: https://www.gnu.org/licenses/gpl-3.0
 [gpl-3-shield]: https://img.shields.io/badge/License-GPLv3-blue.svg
+[gpl-3-image]: https://www.gnu.org/graphics/gplv3-or-later-sm.png
