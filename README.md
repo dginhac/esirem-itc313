@@ -4,7 +4,7 @@
 
 Fundamentals of Programming - Introduction to C++/C languages
 
-La version française de ce fichier [LISEZMOI](LISEZMOI.md) est également disponible.
+La version :fr: de ce fichier [LISEZMOI](LISEZMOI.md) est également disponible.
 
 ## Introduction
 
