@@ -7,7 +7,6 @@ La version française de ce fichier [LISEZMOI](LISEZMOI.md) est également dispo
 
 The documents available in this GitHub repository are intended for students in the Computer Science - Electronics department of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
-They are distributed under the terms of the GPLv3 - [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) and can be freely used by anyone who want to learn C++/
 
 ## Latest NEWS: 
 
@@ -53,19 +52,13 @@ Do not forget to replace x by its value.
 
 ## License
 
-Copyright (C) 2019  D. Ginhac [dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc-sa]
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
-
-
+[cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
