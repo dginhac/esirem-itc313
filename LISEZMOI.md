@@ -5,7 +5,6 @@ Fondamentaux de la Programmation - Introduction aux langages C++ et C
 
 Les documents disponibles dans ce dépot GitHub sont à destination des étudiants du département Informatique - Electronique de l'école d'ingénieurs ESIREM](http://esirem.u-bourgogne.fr) - Dijon - France.
 Ils sont amenés à changer au fur et a mesure de l'évolution du contenu de ce module. 
-Ils sont distribués en GPL v3 https://www.gnu.org/licenses/](https://www.gnu.org/licenses/) et peuvent bien évidemment être utilisés par toute personne souhaitant se former à la programmation C++. 
 
 ## Dernières nouvelles:
 
@@ -52,19 +51,14 @@ Les cours déja faits les années précédentes sont aussi archivés au format p
 
 ## License
 
-Copyright (C) 2019  D. Ginhac [dginhac@u-bourgogne.fr](mailto:dginhac@u-bourgogne.fr)
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
 
-
+[cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
