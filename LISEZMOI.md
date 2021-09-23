@@ -1,5 +1,6 @@
 # Esirem - Informatique / Electronique - Module ITC313
-[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+Lectures: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+Source code: [![License: GPL v3][gpl-3-shield]][gpl-3]
 
 Fondamentaux de la Programmation - Introduction aux langages C++ et C
 
@@ -62,3 +63,6 @@ This work is licensed under a
 [cc-by-nc]: http://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
+[gpl-3]: https://www.gnu.org/licenses/gpl-3.0
+[gpl-3-shield]: https://img.shields.io/badge/License-GPLv3-blue.svg
