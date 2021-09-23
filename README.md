@@ -1,4 +1,6 @@
 # Esirem - Informatique / Electronique - Module ITC313
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
 Fundamentals of Programming - Introduction to C++/C languages
 
 La version française de ce fichier [LISEZMOI](LISEZMOI.md) est également disponible.
@@ -52,7 +54,6 @@ Do not forget to replace x by its value.
 
 ## License
 
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].

@@ -1,4 +1,6 @@
 # Esirem - Informatique / Electronique - Module ITC313
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
 Fondamentaux de la Programmation - Introduction aux langages C++ et C
 
 ## Introduction
@@ -51,8 +53,6 @@ Les cours déja faits les années précédentes sont aussi archivés au format p
 
 ## License
 
-
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
