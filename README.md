@@ -1,8 +1,7 @@
-# Esirem - Informatique / Electronique / Robotique - Module ITC313
+# Fundamentals of C++ - From beginner to beyond (Esirem)
+
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 [![License: GPL v3][gpl-3-shield]][gpl-3]
-
-Fundamentals of C++ - From beginner to beyond.
 
 ## Introduction
 
