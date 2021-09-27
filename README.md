@@ -1,29 +1,47 @@
-# Esirem - Informatique / Electronique - Module ITC313
+# Esirem - Informatique / Electronique / Robotique - Module ITC313
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 [![License: GPL v3][gpl-3-shield]][gpl-3]
 
-Fundamentals of Programming - Introduction to C++/C languages
-
-La version :fr: de ce fichier [LISEZMOI](LISEZMOI.md) est également disponible.
+Fundamentals of C++ - From beginner to beyond.
 
 ## Introduction
 
-The documents available in this GitHub repository are intended for students in the Computer Science - Electronics department of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
+The documents available in this GitHub repository are intended for students in the Computer Science / Electronics & Robotics departments of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
 ## Latest NEWS: 
 
+* 2021/09/27: Updated lectures for season 2021-2022
 * 2020/11/07: Lesson 06 (keynote and samples) has been uploaded
 * 2020/11/02: A [Youtube Channel](https://www.youtube.com/watch?v=EKfElV3zBGA&list=PL0Z31Yjf1Bk3PYn86ufP8mTm0w9iAjhzc) with live course recordings has been added.
 * 2020/11/02: [TD2](TD/2020-2021/TD2.md) has been added.
 * 2020/11/02: Lesson 05 (keynote and samples) has been uploaded.
 * 2020/09/29: Lesson 00 to Lesson 04 have been updated and are now available for download.
 
-## Lectures 2020-2021
-
-### Files to download
+## Lectures 2021-2022
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
+* Lecture 00: Course Introduction - 5.1 MB - [http://ginhac.com/teaching/ITC313/2021-2022/00-introduction.pdf](http://ginhac.com/teaching/ITC313/2021-2022/00-introduction.pdf)
+* Lecture 01: User-defined Data Types - 2.6 MB - [http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf](http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf)
+* Lecture 02: to be continued...
+
+## Lectures 2020-2021
+
+* Lecture 00: ITC313 Course Introduction - 10.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
+* Lecture 01: Hello, world! - 10 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
+* Lecture 02: User-defined types - 14.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
+* Lecture 03: Inheritance - 8.9 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
+* Lecture 04: Polymorphism - 10.5 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
+* Lesson 05: STL Containers - 14.8 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
+* Lesson 06: Indirection - 12.6 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
+
+## Complementary lectures
+Two additional presentations are also available:
+
+* Introduction on Makefiles - [http://ginhac.com/teaching/ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - A generic [Makefile](utils/Makefile) for basic C++ projects is available in [utils](utils).
+* Introduction on git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - A french [tutorial](utils/github.md) on git/GitHub with 2 developers is also available in [utils](utils).
+
+## Past lectures (2020-2021)
 * Lesson 00: ITC313 Course Introduction - 10.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
 * Lesson 01: Hello, world! - 10 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
 * Lesson 02: User-defined types - 14.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
@@ -31,15 +49,7 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lesson 04: Polymorphism - 10.5 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
 * Lesson 05: STL Containers - 14.8 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
 * Lesson 06: Indirection - 12.6 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
-* Lesson 07: Templates - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-07.pdf)
-* Lesson 08: Exceptions - Not available - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-08.pdf)
-* Lesson 09: to be continued...
 
-## Complementary lectures
-Two additional presentations are also available:
-
-* Introduction on Makefiles - [http://ginhac.com/teaching/ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - A generic [Makefile](utils/Makefile) for basic C++ projects is available in [utils](utils).
-* Introduction on git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - A french [tutorial](utils/github.md) on git/GitHub with 2 developers is also available in [utils](utils).
 
 ## Past lectures (2019-2020)
 Past lectures are also available in pdf format for download at the following url [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf](http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
