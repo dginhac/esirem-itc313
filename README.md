@@ -25,6 +25,15 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lecture 01: User-defined Data Types - 2.6 MB - [http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf](http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf)
 * Lecture 02: to be continued...
 
+##  Other Content
+* Directory [samples](samples): Sets of codes used in lectures
+* Directory [TD](TD): Tutorials
+* Directory [exams](exams): Exams
+* Directory [TP](TP): Lab work
+* Directory [utils](utils): Additional documents
+* Directory [lectures](lectures): Additional information on lectures
+
+
 ## Lectures 2020-2021
 
 * Lecture 00: ITC313 Course Introduction - 10.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
@@ -55,13 +64,6 @@ Two additional presentations are also available:
 Past lectures are also available in pdf format for download at the following url [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf](http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
 Do not forget to replace x by its value. 
 
-##  Other Content 
-* Directory [samples](samples): Sets of codes used in lectures
-* Directory [TD](TD): Tutorials 
-* Directory [exams](exams): Exams
-* Directory [TP](TP): Lab work 
-* Directory [utils](utils): Additional documents
-* Directory [lectures](lectures): Additional information on lectures
 
 ## Licenses
 
