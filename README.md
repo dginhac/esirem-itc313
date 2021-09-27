@@ -31,18 +31,6 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Directory [exams](exams): Exams
 * Directory [TP](TP): Lab work
 * Directory [utils](utils): Additional documents
-* Directory [lectures](lectures): Additional information on lectures
-
-
-## Lectures 2020-2021
-
-* Lecture 00: ITC313 Course Introduction - 10.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
-* Lecture 01: Hello, world! - 10 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
-* Lecture 02: User-defined types - 14.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
-* Lecture 03: Inheritance - 8.9 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-03.pdf)
-* Lecture 04: Polymorphism - 10.5 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
-* Lesson 05: STL Containers - 14.8 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
-* Lesson 06: Indirection - 12.6 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
 
 ## Complementary lectures
 Two additional presentations are also available:
@@ -50,7 +38,9 @@ Two additional presentations are also available:
 * Introduction on Makefiles - [http://ginhac.com/teaching/ITC313/makefile-intro.pdf](http://ginhac.com/teaching/ITC313/makefile-intro.pdf) - A generic [Makefile](utils/Makefile) for basic C++ projects is available in [utils](utils).
 * Introduction on git/GitHub - [http://ginhac.com/teaching/ITC313/git-intro.pdf](http://ginhac.com/teaching/ITC313/git-intro.pdf) - A french [tutorial](utils/github.md) on git/GitHub with 2 developers is also available in [utils](utils).
 
-## Past lectures (2020-2021)
+
+## Past lectures
+### Season 2020-2021
 * Lesson 00: ITC313 Course Introduction - 10.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-00.pdf)
 * Lesson 01: Hello, world! - 10 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-01.pdf)
 * Lesson 02: User-defined types - 14.4 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-02.pdf)
@@ -60,7 +50,7 @@ Two additional presentations are also available:
 * Lesson 06: Indirection - 12.6 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
 
 
-## Past lectures (2019-2020)
+### Season 2019-2020
 Past lectures are also available in pdf format for download at the following url [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf](http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
 Do not forget to replace x by its value. 
 
