@@ -3,7 +3,7 @@
   * @Author:   D. Ginhac (dginhac@u-bourgogne.fr)
   * @Date:     Fall 2021
   * @Course:   C++ Programming / Esirem 3A Informatique Electronique Robotique
-  * @Summary:  Methods
+  * @Summary:  Check valid date
   */
 
 #ifndef DATE_H
@@ -16,13 +16,9 @@ public:
    int day() const;
    void updateMonth(int month);
    void updateDay(int day);
-   int dayOfYear() const;
-   void next();
-   void back();
 private:
    int _month;
    int _day;
-   bool isValid(int month, int day) const;
-   int getDaysInMonth(int month) const;
+   bool isDate(int month, int day) const;
 };
 #endif // DATE_H

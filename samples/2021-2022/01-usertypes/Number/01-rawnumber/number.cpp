@@ -14,6 +14,12 @@ Rawnumber::Rawnumber(int number) : _type(Type::integer), _number({.integer=numbe
 } 
 Rawnumber::Rawnumber(float number) : _type(Type::real), _number({.real=number}) {
 }  
+Number Rawnumber::number() {
+   return _number;
+}
+Type Rawnumber::type() {
+   return _type;
+}
 
 void Rawnumber::display() {
     switch (_type) {
@@ -24,6 +30,5 @@ void Rawnumber::display() {
          std::cout << "Integer: " << _number.integer << '\n';
       break;
    }
-
 }
 

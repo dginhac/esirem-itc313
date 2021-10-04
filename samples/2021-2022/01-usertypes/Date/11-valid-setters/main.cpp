@@ -10,12 +10,9 @@
 #include <iostream>
 
 int main(int argc, char const *argv[]) {
-  Date a_day(6,21);
-  std::cout << "Summer: " << a_day.day() << "/" << a_day.month() << std::endl;
-  a_day.updateMonth(9);
-  std::cout << "Automn: " << a_day.day() << "/" << a_day.month() << std::endl;
-  a_day.updateMonth(2);
-  a_day.updateDay(29);
-  std::cout << "02/29: " << a_day.day() << "/" << a_day.month() << std::endl;
+  Date love(2,14);
+  std::cout << "Valentine day: " << love.day() << "/" << love.month() << std::endl;
+  love.updateDay(30);
+  std::cout << "NOK 30/02: " << love.day() << "/" << love.month() << std::endl;
   return 0;
 }

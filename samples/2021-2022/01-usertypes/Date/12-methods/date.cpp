@@ -10,8 +10,8 @@
 
 
 Date::Date(int month, int day) : _month(month), _day(day) {
-    bool status = isValid(month, day);
-    assert(status==true && "Date is not valid");
+    bool status = isDate(month, day);
+    assert(status && "Date is not valid");
 }
 
 int Date::month() const {
@@ -23,19 +23,19 @@ int Date::day() const {
 }
 
 void Date::updateMonth(int month) {
-    bool status = isValid(month, _day);
+    bool status = isDate(month, _day);
     assert(status==true && "New month is not valid");
     _month = month;
 }
 
 void Date::updateDay(int day) {
-    bool status = isValid(_month, day);
+    bool status = isDate(_month, day);
     assert(status==true && "New day is not valid");
     _day = day;
 }
 
 int Date::getDaysInMonth(int month) const {
-    if ((month <1) || (month>12)) return 0;
+    assert(((month >=1) && (month<=12)) && "Month is not valid");
     if (month == 2) return 28;
     if ((month == 1 || month == 3 || month == 5 || month == 7
     || month == 8 || month == 10 || month == 12)) return 31;
@@ -79,7 +79,7 @@ void Date::back() {
     }
 }
 
-bool Date::isValid(int month, int day) const {
+bool Date::isDate(int month, int day) const {
     if ((day < 1) || (day>31)) return false;
     if ((month <1) || (month>12)) return false;
     if ((month == 2) && (day > 28)) return false;

@@ -24,6 +24,9 @@ public:
       Rawnumber(int number=0);
       Rawnumber(float number);
       void display(); 
+      Number number();
+      Type type();
+
 private:
       Type _type;
       Number _number;

@@ -19,5 +19,10 @@ int main(int argc, char const *argv[]) {
    float real_nb = 3.14159;
    Rawnumber nb3(real_nb);
    nb3.display();
+
+   Type real_type = nb3.type();
+   std::cout << static_cast<int>(real_type) << std::endl;
+   float real_value = nb3.number().real;
+   std::cout << real_value << std::endl;
    return 0;
 }
