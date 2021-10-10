@@ -21,8 +21,9 @@ They are subject to change as the content of this module evolves.
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
 * Lecture 00: [Course Introduction](http://ginhac.com/teaching/ITC313/2021-2022/00-introduction.pdf) - 17.4 MB - Last release on Oct, 4
-* Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf) - 24.5 MB - - Last release on Oct, 4
-* Lecture 02: to be continued...
+* Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf) - 24.5 MB - Last release on Oct, 4
+* Lecture 02: [Inheritance](http://ginhac.com/teaching/ITC313/2021-2022/02-inheritance.pdf) - 1.8 MB - Last release on Oct, 10
+* Lecture 04: to be continued...
 
 ##  Other Content
 * Directory [samples](samples): Sets of codes used in lectures
