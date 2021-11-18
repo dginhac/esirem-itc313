@@ -8,8 +8,9 @@
 The documents available in this GitHub repository are intended for students in the Computer Science / Electronics & Robotics departments of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
-## Latest NEWS: 
+## Latest NEWS:
 
+* 2021/11/18: Add lecture 04 on STL with code samples 
 * 2021/10/12: Updated lectures (00 to 03) and codes for season 2021-2022
 * 2021/09/27: Updated lectures for season 2021-2022
 * 2020/11/07: Lesson 06 (keynote and samples) has been uploaded
@@ -25,10 +26,11 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf) - 24.4 MB - Last release on Oct, 12
 * Lecture 02: [Inheritance](http://ginhac.com/teaching/ITC313/2021-2022/02-inheritance.pdf) - 6.7 MB - Last release on Oct, 12
 * Lecture 03: [Polymorphism](http://ginhac.com/teaching/ITC313/2021-2022/03-polymorphism.pdf) - 14.5 MB - Last release on Oct, 12
+* Lecture 04: [STL](http://ginhac.com/teaching/ITC313/2021-2022/04-stl.pdf) - 14.5 MB - Last release on Nov, 18
 
-* Lecture 04: to be continued...
+* Lecture 05: to be continued...
 
-##  Other Content
+## Other Content
 * Directory [samples](samples): Sets of codes used in lectures
 * Directory [TD](TD): Tutorials
 * Directory [exams](exams): Exams
