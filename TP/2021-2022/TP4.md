@@ -5,7 +5,7 @@ Ce TP permet d'aborder la programmation orientée objets (POO) en créant un cer
 
 Ce TP est donc adapté aux étudiants ayant un niveau intermédiaire.
 
-**Niveau du TP: intermédiaire*
+**Niveau du TP: intermédiaire**
 
 ## Démarche à suivre
 

@@ -4,7 +4,7 @@ Ce TP concerne la gestion d’une bibliothèque. Cette bibliothèque comporte de
 
 Ce TP permet d'aborder la programmation orientée objets (POO) en créant un certain nombre de classes simples qui vont intéragir entre elles. Ce TP est donc adapté aux étudiants débutant la POO en C++.
 
-**Niveau du TP: Débutant*
+**Niveau du TP: Débutant**
 
 ## Démarche à suivre
 

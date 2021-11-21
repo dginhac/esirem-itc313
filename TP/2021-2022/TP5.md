@@ -6,7 +6,7 @@ Ce TP permet de renforcer vos compétences en programmation orientée objets (PO
 
 Ce TP est donc adapté aux étudiants ayant un niveau intermédiaire à élevé..
 
-**Niveau du TP: intermédiaire à elevé*
+**Niveau du TP: intermédiaire à elevé**
 
 ## Démarche à suivre
 
