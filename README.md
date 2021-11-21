@@ -10,6 +10,7 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS:
 
+* 2021/11/21: Add Lab Work ([TP](TP/2021-2022)) for season 2021-2022 
 * 2021/11/18: Add lecture 04 on STL with code samples 
 * 2021/10/12: Updated lectures (00 to 03) and codes for season 2021-2022
 * 2021/09/27: Updated lectures for season 2021-2022
