@@ -27,9 +27,9 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf) - 24.4 MB - Last release on Oct, 12
 * Lecture 02: [Inheritance](http://ginhac.com/teaching/ITC313/2021-2022/02-inheritance.pdf) - 6.7 MB - Last release on Oct, 12
 * Lecture 03: [Polymorphism](http://ginhac.com/teaching/ITC313/2021-2022/03-polymorphism.pdf) - 14.5 MB - Last release on Oct, 12
-* Lecture 04: [STL](http://ginhac.com/teaching/ITC313/2021-2022/04-stl.pdf) - 14.5 MB - Last release on Nov, 18
+* Lecture 04: [STL](http://ginhac.com/teaching/ITC313/2021-2022/04-stl.pdf) - 12.3 MB - Last release on Nov, 23
 
-* Lecture 05: to be continued...
+* Lectures 05, 06, ...: to be continued...
 
 ## Other Content
 * Directory [samples](samples): Sets of codes used in lectures
