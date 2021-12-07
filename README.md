@@ -29,7 +29,7 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lecture 03: [Polymorphism](http://ginhac.com/teaching/ITC313/2021-2022/03-polymorphism.pdf) - 14.5 MB - Last release on Oct, 12
 * Lecture 04: [STL](http://ginhac.com/teaching/ITC313/2021-2022/04-stl.pdf) - 10.2 MB - Last release on Dec, 06
 * Lecture 05: [Indirection](http://ginhac.com/teaching/ITC313/2021-2022/05-indirection.pdf) - 18.1 MB - Last release on Dec, 06
-* Lecture 06: [Templates](http://ginhac.com/teaching/ITC313/2021-2022/06-templates.pdf) - 6.2 MB - Last release on Dec, 06
+* Lecture 06: [Templates](http://ginhac.com/teaching/ITC313/2021-2022/06-templates.pdf) - 8.6 MB - Last release on Dec, 07
 
 * to be continued...
 
