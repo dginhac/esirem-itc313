@@ -96,7 +96,9 @@ namespace date {
         return day;
     }
 
-
+    std::string toString(Date d) {
+        return std::to_string(d.day()) + "/" + std::to_string(d.month()) ;
+    }
 
 
     Date operator + (const Date& date, const int days) {
@@ -113,8 +115,9 @@ namespace date {
             if (new_month > 12) { // end of the year
                 new_month = 1;
             }
-            tmp.updateMonth(new_month);
-            days_in_month = getDaysInMonth(tmp.month());
+            //tmp.updateMonth(new_month);
+            //days_in_month = getDaysInMonth(tmp.month());
+            days_in_month = getDaysInMonth(new_month);
         }
         return Date(new_month, new_day);
     }
@@ -218,19 +221,6 @@ namespace date {
             return true;
         }
         return (d1>d2);
-    }
-
-    std::string toString(Date date) {
-        std::string month[12] = {"Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"};
-        return month[date.month()-1] + "/" + std::to_string(date.day()) ;
-    }
-
-    std::ostream& operator<<(std::ostream& os, const Date& date)  {
-        std::string month[12] = {"Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"};
-        std::string to_display;
-        to_display = month[date.month()-1] + "/" + std::to_string(date.day());
-        os << to_display << std::endl;
-        return os;
     }
     
 

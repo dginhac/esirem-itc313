@@ -116,8 +116,9 @@ namespace date {
             if (new_month > 12) { // end of the year
                 new_month = 1;
             }
-            tmp.updateMonth(new_month);
-            days_in_month = getDaysInMonth(tmp._month);
+            //tmp.updateMonth(new_month);
+            //days_in_month = getDaysInMonth(tmp._month);
+            days_in_month = getDaysInMonth(new_month);
         }
         return Date(new_month, new_day);
     }
