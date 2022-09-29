@@ -11,7 +11,7 @@ int main() {
 	auto str1 = "hello, world";
 
 	// generate a compilation error
-	//auto str2;
+	auto str2;
 
 	std::cout << "i0 = " << i0 << std::endl;
 	std::cout << "i1 = " << i1 << std::endl;
