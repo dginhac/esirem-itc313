@@ -3,16 +3,16 @@
   * @Author:   D. Ginhac (dginhac@u-bourgogne.fr)
   * @Date:     Fall 2021
   * @Course:   C-C++ Programming / Esirem 3A Informatique Electronique Robotique
-  * @Summary:  Setters with value checking
+  * @Summary:  Minimal version with getters
   */
 
 #include "date.h"
 #include <iostream>
 
 int main(int argc, char const *argv[]) {
-  Date love(2,14);
-  std::cout << "Valentine day: " << love.month() << "/" << love.day() << std::endl;
-  love.updateDay(30);
-  std::cout << "NOK 30/02: " << love.month() << "/" << love.day() << std::endl;
+  Date starwars(5,4);
+  std::cout << "Starwars: " << starwars.month() << "/" << starwars.day() << std::endl;
+  Date pi_day(3,14);
+  std::cout << "Pi day: " << pi_day.month() << "/" << pi_day.day() << std::endl;
   return 0;
 }
