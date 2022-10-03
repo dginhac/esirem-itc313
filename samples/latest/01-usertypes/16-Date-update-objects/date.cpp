@@ -24,13 +24,13 @@ int Date::day() const {
 
 void Date::updateMonth(int month) {
     bool status = isDate(month, _day);
-    assert(status==true && "New month is not valid");
+    assert(status==true && "Month is not valid");
     _month = month;
 }
 
 void Date::updateDay(int day) {
     bool status = isDate(_month, day);
-    assert(status==true && "New day is not valid");
+    assert(status==true && "Day is not valid");
     _day = day;
 }
 

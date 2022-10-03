@@ -1,12 +1,10 @@
 /**
-  * @File:     date.h
+  * @File: date.h
   * @Author:   D. Ginhac (dginhac@u-bourgogne.fr)
   * @Date:     Fall 2021
   * @Course:   C++ Programming / Esirem 3A Informatique Electronique Robotique
-  * @Summary:  Methods - Helpers functions
+  * @Summary:  Method vs Helper Function
   */
-
-#include <iostream>
 
 #ifndef DATE_H
 #define DATE_H
@@ -18,18 +16,22 @@ public:
    int day() const;
    void updateMonth(int month);
    void updateDay(int day);
+   int dayOfYear() const;
    void next();
    void back();
 private:
    int _month;
    int _day;
+   bool isDate(int month, int day) const;
    
 };
 
-bool isDate(int month, int day);
+
+/** 
+ * Helper function
+ */
+
 int getDaysInMonth(int month);
 int dayOfYear(Date d);
-std::string toString(Date d);
-
 
 #endif // DATE_H

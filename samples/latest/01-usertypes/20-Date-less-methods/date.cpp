@@ -1,10 +1,13 @@
 /**
- * @Author: Dominique Ginhac <d0m>
- * @Date:   2019-10-15T09:46:41+02:00
- * @Email:  dginhac@u-bourgogne.fr
- * @Project: C++ Programming - ESIREM 3A IT
- * @Summary:  Methods - Helpers functions
-*/
+  * @File: date.cpp
+  * @Author: d0m <dginhac@u-bourgogne.fr>
+  * @Created on : 2022-10-03 09:14:04
+  * @Last Modified time: 2022-10-03 15:24:25
+  * 
+  * @Description: Date class Implementation
+  */
+
+
 #include "date.h"
 #include <assert.h> 
 
@@ -35,33 +38,6 @@ void Date::updateDay(int day) {
     _day = day;
 }
 
-void Date::next() {
-    if ((_month==12) && (_day==31)) {
-        _day=1;
-        _month=1;
-    }
-    else if (_day==getDaysInMonth(_month)) {
-        _day=1;
-        _month++;
-    }
-    else {
-        _day++;
-    }
-}
-
-void Date::back() {
-    if ((_month==1) && (_day==1)) {
-        _day=31;
-        _month=12;
-    }
-    else if (_day==1) {
-        _month--;
-        _day=getDaysInMonth(_month);
-    }
-    else {
-        _day--;
-    }
-}
 
 
 /**
@@ -100,3 +76,31 @@ std::string toString(Date d) {
     return std::to_string(d.day()) + "/" + std::to_string(d.month()) ;
 }
 
+
+void next(Date d) {
+    if ((d.month()==12) && (d.day()==31)) {
+        d.updateDay(1);
+        d.updateMonth(1);
+    }
+    else if (d.day()==getDaysInMonth(d.month())) {
+        d.updateDay(1);
+        d.updateMonth(d.month()+1);
+    }
+    else {
+        d.updateDay(d.day()+1);
+    }
+}
+
+void back(Date d) {
+    if ((d.month()==1) && (d.day()==1)) {
+        d.updateDay(31);
+        d.updateMonth(12);
+    }
+    else if (d.day()==1) {
+        d.updateMonth(d.month()-1);
+        d.updateDay(getDaysInMonth(d.month()));
+    }
+    else {
+        d.updateDay((d.day()-1));
+    }
+}
