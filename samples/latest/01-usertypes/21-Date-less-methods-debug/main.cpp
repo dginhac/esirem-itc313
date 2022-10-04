@@ -2,13 +2,10 @@
   * @File: main.cpp
   * @Author: d0m <dginhac@u-bourgogne.fr>
   * @Created on : 2022-10-03 10:14:42
-  * @Last Modified time: 2022-10-03 17:22:20
+  * @Last Modified time: 2022-10-04 11:49:11
   * 
-  * @Description: Less methods
+  * @Description: Debug session to understand why next and back functions do not modify dates
   */
-
-
-
 
 
 #include "date.h"

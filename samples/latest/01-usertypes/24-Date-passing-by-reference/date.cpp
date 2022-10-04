@@ -2,7 +2,7 @@
   * @File: date.cpp
   * @Author: d0m <dginhac@u-bourgogne.fr>
   * @Created on : 2022-10-03 09:14:04
-  * @Last Modified time: 2022-10-03 15:24:25
+  * @Last Modified time: 2022-10-04 14:39:53
   * 
   * @Description: Date class Implementation
   */
@@ -77,7 +77,7 @@ std::string toString(Date d) {
 }
 
 
-void next(Date d) {
+void next(Date& d) {
     if ((d.month()==12) && (d.day()==31)) {
         d.updateDay(1);
         d.updateMonth(1);
@@ -91,7 +91,7 @@ void next(Date d) {
     }
 }
 
-void back(Date d) {
+void back(Date& d) {
     if ((d.month()==1) && (d.day()==1)) {
         d.updateDay(31);
         d.updateMonth(12);

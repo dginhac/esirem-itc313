@@ -2,7 +2,7 @@
   * @File: date.cpp
   * @Author: d0m <dginhac@u-bourgogne.fr>
   * @Created on : 2022-10-03 09:14:04
-  * @Last Modified time: 2022-10-03 15:24:25
+  * @Last Modified time: 2022-10-04 13:54:01
   * 
   * @Description: Date class Implementation
   */
@@ -38,7 +38,33 @@ void Date::updateDay(int day) {
     _day = day;
 }
 
+void Date::next() {
+    if ((_month==12) && (_day==31)) {
+        _day=1;
+        _month=1;
+    }
+    else if (_day==getDaysInMonth(_month)) {
+        _day=1;
+        _month++;
+    }
+    else {
+        _day++;
+    }
+}
 
+void Date::back() {
+    if ((_month==1) && (_day==1)) {
+        _day=31;
+        _month=12;
+    }
+    else if (_day==1) {
+        _month--;
+        _day=getDaysInMonth(_month);
+    }
+    else {
+        _day--;
+    }
+}
 
 /**
  * 
@@ -76,31 +102,3 @@ std::string toString(Date d) {
     return std::to_string(d.month()) + "/" + std::to_string(d.day()) ;
 }
 
-
-void next(Date d) {
-    if ((d.month()==12) && (d.day()==31)) {
-        d.updateDay(1);
-        d.updateMonth(1);
-    }
-    else if (d.day()==getDaysInMonth(d.month())) {
-        d.updateDay(1);
-        d.updateMonth(d.month()+1);
-    }
-    else {
-        d.updateDay(d.day()+1);
-    }
-}
-
-void back(Date d) {
-    if ((d.month()==1) && (d.day()==1)) {
-        d.updateDay(31);
-        d.updateMonth(12);
-    }
-    else if (d.day()==1) {
-        d.updateMonth(d.month()-1);
-        d.updateDay(getDaysInMonth(d.month()));
-    }
-    else {
-        d.updateDay((d.day()-1));
-    }
-}
