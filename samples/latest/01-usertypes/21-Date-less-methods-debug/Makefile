@@ -1,7 +1,7 @@
 # Makefile with dependencies management (Q4)
 
 CXX        = clang++
-CXXFLAGS   = -Wall  -std=c++20 -g
+CXXFLAGS   = -Wall  -std=c++20 -DDEBUG -g
 DEPFLAGS   = -MMD
 LDFLAGS    =
 SRCS       = date.cpp main.cpp
