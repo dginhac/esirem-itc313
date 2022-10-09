@@ -8,19 +8,11 @@
 The documents available in this GitHub repository are intended for students in the Computer Science / Electronics & Robotics departments of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
-## Latest NEWS:
+## Latest NEWS from Season 2022-2023:
 
+* 2022/10/09: [TD01](TD/latest/td01/README.md) is availablz.
 * 2022/10/06: Updated lecture 01 with code samples
-* 2022/09/27: Updated lectures 00 and 01 with code samples for season 2022-2023
-* 2021/11/21: Add Lab Work ([TP](TP/2021-2022)) for season 2021-2022 
-* 2021/11/18: Add lecture 04 on STL with code samples 
-* 2021/10/12: Updated lectures (00 to 03) and codes for season 2021-2022
-* 2021/09/27: Updated lectures for season 2021-2022
-* 2020/11/07: Lesson 06 (keynote and samples) has been uploaded
-* 2020/11/02: A [Youtube Channel](https://www.youtube.com/watch?v=EKfElV3zBGA&list=PL0Z31Yjf1Bk3PYn86ufP8mTm0w9iAjhzc) with live course recordings has been added.
-* 2020/11/02: [TD2](TD/2020-2021/TD2.md) has been added.
-* 2020/11/02: Lesson 05 (keynote and samples) has been uploaded.
-* 2020/09/29: Lesson 00 to Lesson 04 have been updated and are now available for download.
+* 2022/09/27: Updated lecture 00 with code samples
 
 ## Lectures 2022-2023
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
@@ -65,12 +57,6 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 * Lesson 04: Polymorphism - 10.5 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-04.pdf)
 * Lesson 05: STL Containers - 14.8 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-05.pdf)
 * Lesson 06: Indirection - 12.6 MB - [http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf](http://ginhac.com/teaching/ITC313/2020-2021/lesson-06.pdf)
-
-
-### Season 2019-2020
-Past lectures are also available in pdf format for download at the following url [http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf](http://ginhac.com/teaching/ITC313/2019-2020/lesson-0x.pdf) with 0&leq;x&leq;9.
-Do not forget to replace x by its value. 
-
 
 ## Licenses
 
