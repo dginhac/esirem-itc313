@@ -10,7 +10,8 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2022-2023:
 
-* 2022/10/09: [TD01](TD/latest/td01/README.md) is availablz.
+* 2022/10/16: add lectures 02 and 03 with code samples
+* 2022/10/09: [TD01](TD/latest/td01/README.md) is available.
 * 2022/10/06: Updated lecture 01 with code samples
 * 2022/09/27: Updated lecture 00 with code samples
 
@@ -19,6 +20,8 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 
 * Lecture 00: [Course Introduction](http://ginhac.com/teaching/ITC313/latest/00-introduction.pdf) - 26 MB - Last release on Sept., 27, 2022
 * Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/latest/01-usertypes.pdf) - 33 MB - Last release on Oct., 06, 2022
+* Lecture 02: [Inheritance](http://ginhac.com/teaching/ITC313/latest/02-inheritance.pdf) - 6.5 MB - Last release on Oct., 16, 2022
+* Lecture 03: [Polymorphism](http://ginhac.com/teaching/ITC313/latest/03-polymorphism.pdf) - 14 MB - Last release on Oct., 16, 2022
 * to be continued...
 
 ## Other Content
