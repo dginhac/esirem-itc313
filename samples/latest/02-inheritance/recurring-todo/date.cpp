@@ -153,4 +153,49 @@ namespace date {
         return (d1>d2);
     }
 
+    Date operator + (const Date& date, const int days) {
+        if (days <0) { //if days <0, we call Date - (-days)
+            return date - (-days);
+        }
+        Date tmp = date; // the current date
+        int new_day = tmp.day() + days; // the new day is ok if new_day < end of month
+        int new_month = tmp.month();
+        int days_in_month = getDaysInMonth(tmp.month());
+        while (new_day > days_in_month) { // end of the month
+            new_day -= days_in_month; // the day in the next month
+            new_month++;
+            if (new_month > 12) { // end of the year
+                new_month = 1;
+            }
+            //tmp.updateMonth(new_month);
+            //days_in_month = getDaysInMonth(tmp.month());
+            days_in_month = getDaysInMonth(new_month);
+        }
+        return Date(new_month, new_day);
+    }
+
+    Date operator + (const int days, const Date& date) {
+        return date + days;
+    }
+
+    Date operator - (const Date& date, const int days) {
+        if (days <0) { //if days <0, we call Date + (-days)
+            return date + (-days);
+        }
+        int new_month=date.month();
+        int new_day = date.day()-days; // the new day is ok if > 0
+        while (new_day <=0) {
+            if (new_month==1) { // beginning of the year
+                new_month=12; // in december
+                new_day=31+new_day;
+            }
+            else { // other months than january
+                int days_in_previous_month = getDaysInMonth(Date(new_month-1,1).month());
+                new_day = days_in_previous_month+new_day;
+                new_month--;
+            }
+        }
+        return Date(new_month, new_day);
+    }
+
 } // date

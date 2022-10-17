@@ -1,5 +1,5 @@
 /**
-  * @File:     date.h
+  * @File: date.h
   * @Author:   D. Ginhac (dginhac@u-bourgogne.fr)
   * @Date:     Fall 2021
   * @Course:   C++ Programming / Esirem 3A Informatique Electronique Robotique
@@ -38,6 +38,10 @@ namespace date {
    bool operator > (const Date&, const Date&);
    bool operator <= (const Date&, const Date&);
    bool operator >= (const Date&, const Date&);
+
+   Date operator + (const Date& date, const int days); // date + integer
+   Date operator + (const int days, const Date& date); // integer + date
+   Date operator - (const Date& date, const int days); // date - integer
 } // date
 
 #endif // DATE_H

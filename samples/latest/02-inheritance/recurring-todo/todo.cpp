@@ -96,11 +96,8 @@ namespace todo {
 
    void RecurringTodo::setCompleted(bool completed) {
       if (completed) {
-         for (int i=0; i<_period; i++) {
-            date::Date next_day = dueDate();
-            next_day.next();
-            updateDueDate(next_day);
-         }
+         updateDueDate(dueDate()+_period);
+         
          if (dueDate()>_end_date) {
             Todo::setCompleted(completed);
          }
