@@ -10,6 +10,7 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2022-2023:
 
+* 2022/10/20: add lecture 04  on Standard Template Library (STL) with code samples
 * 2022/10/17: update lecture 02 (typo correction) with code samples
 * 2022/10/16: add lectures 02 and 03 with code samples
 * 2022/10/09: [TD01](TD/latest/td01/README.md) is available.
