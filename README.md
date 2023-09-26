@@ -8,23 +8,16 @@
 The documents available in this GitHub repository are intended for students in the Computer Science / Electronics & Robotics departments of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
-## Latest NEWS from Season 2022-2023:
+## Latest NEWS from Season 2023-2024:
 
-* 2022/10/20: add lecture 04  on Standard Template Library (STL) with code samples
-* 2022/10/17: update lecture 02 (typo correction) with code samples
-* 2022/10/16: add lectures 02 and 03 with code samples
-* 2022/10/09: [TD01](TD/latest/td01/README.md) is available.
-* 2022/10/06: Updated lecture 01 with code samples
-* 2022/09/27: Updated lecture 00 with code samples
+* 2023/09/26: add lecture 00 (Introduction) and lecture 01 (User-defined Data Types) with code samples
 
-## Lectures 2022-2023
+
+## Lectures 2023-2024
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
-* Lecture 00: [Course Introduction](http://ginhac.com/teaching/ITC313/latest/00-introduction.pdf) - 26 MB - Last release on Sept., 27, 2022
-* Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/latest/01-usertypes.pdf) - 33 MB - Last release on Oct., 06, 2022
-* Lecture 02: [Inheritance](http://ginhac.com/teaching/ITC313/latest/02-inheritance.pdf) - 6.5 MB - Last release on Oct., 17, 2022
-* Lecture 03: [Polymorphism](http://ginhac.com/teaching/ITC313/latest/03-polymorphism.pdf) - 14 MB - Last release on Oct., 16, 2022
-* Lecture 04: [Standard Template Library](http://ginhac.com/teaching/ITC313/latest/04-stl.pdf) - 12 MB - Last release on Oct., 20, 2022
+* Lecture 00: [Course Introduction](http://ginhac.com/teaching/ITC313/latest/00-introduction.pdf) - 27 MB - Last release on Sept., 26, 2023
+* Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/latest/01-usertypes.pdf) - 33 MB - Last release on Sept., 26, 2023
 * to be continued...
 
 ## Other Content
@@ -43,8 +36,14 @@ Two additional presentations are also available:
 
 ## Past lectures
 
+### Lectures 2022-2023
+* Lecture 00: [Course Introduction](http://ginhac.com/teaching/ITC313/2022-2023/00-introduction.pdf) - 26 MB - Last release on Sept., 27, 2022
+* Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/2022-2023/01-usertypes.pdf) - 33 MB - Last release on Oct., 06, 2022
+* Lecture 02: [Inheritance](http://ginhac.com/teaching/ITC313/2022-2023/02-inheritance.pdf) - 6.5 MB - Last release on Oct., 17, 2022
+* Lecture 03: [Polymorphism](http://ginhac.com/teaching/ITC313/2022-2023/03-polymorphism.pdf) - 14 MB - Last release on Oct., 16, 2022
+* Lecture 04: [Standard Template Library](http://ginhac.com/teaching/ITC313/2022-2023/04-stl.pdf) - 12 MB - Last release on Oct., 20, 2022
+
 ### Lectures 2021-2022
-Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
 * Lecture 00: [Course Introduction](http://ginhac.com/teaching/ITC313/2021-2022/00-introduction.pdf) - 17.3 MB - Last release on Oct, 12
 * Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/2021-2022/01-usertypes.pdf) - 24.4 MB - Last release on Oct, 12
