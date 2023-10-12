@@ -11,6 +11,7 @@ They are subject to change as the content of this module evolves.
 ## Latest NEWS from Season 2023-2024:
 
 * 2023/09/26: add lecture 00 (Introduction) and lecture 01 (User-defined Data Types) with code samples
+* 2023/10/12: add generic [Makefile](utils/Makefile) and [CMakeLists.txt](utils/CMakeLists.txt) for source compilation using make or cmake 
 
 
 ## Lectures 2023-2024
