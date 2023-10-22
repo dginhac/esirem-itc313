@@ -19,6 +19,8 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 
 * Lecture 00: [Course Introduction](http://ginhac.com/teaching/ITC313/latest/00-introduction.pdf) - 27 MB - Last release on Sept., 26, 2023
 * Lecture 01: [User-defined Data Types](http://ginhac.com/teaching/ITC313/latest/01-usertypes.pdf) - 33 MB - Last release on Sept., 26, 2023
+* Lecture 03: [Polymorphism](http://ginhac.com/teaching/ITC313/latest/03-polymorphism.pdf) - 14 MB - Last release on Oct., 15, 2023
+* Lecture 04: [Standard Template Library](http://ginhac.com/teaching/latest/04-stl.pdf) - 12 MB - Last release on Oct., 22, 2023
 * to be continued...
 
 ## Other Content
