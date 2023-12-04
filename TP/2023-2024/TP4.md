@@ -40,16 +40,17 @@ La classe  Encrypt peut être constituée de la manière suivante :
 - Une méthode « public » `encode` qui réalisera l'encodage du message non chiffré et une méthode « public » `decode` (réciproque de la précédente) qui réaliser le décodage du message chiffré.  L'algorithme de cryptographie utilisé permettra de spécialiser la classe.
 Deux autres méthodes ou fonctions helper seront ajoutées pour lire (`read`) et écrire (`write`) sur le disque dur (afin d'éviter la saisie systématique d'une chaine à encoder) du message déchiffré ou chiffré. Chacune de ces fonctions aura comme paramètre le nom du fichier à lire/écrire. Pour plus de détails sur la lecture / écriture de fichiers en C++, voir par exemple [https://openclassrooms.com/fr/courses/1894236-apprenez-a-programmer-en-c/7534171-lisez-et-modifiez-des-fichiers](https://openclassrooms.com/fr/courses/1894236-apprenez-a-programmer-en-c/7534171-lisez-et-modifiez-des-fichiers). 
 
-### Question 1 : Création d'une classe BasicEncrypt
 
-1.a) A partir des informations présentées au dessus, créer une classe BasicEncrypt dont les méthodes `encode`et `decode` ne font que recopier le message `_plain` dans `_cypher` pour `encode` et `_cypher`  dans `_plain` pour `decode`. 
+### Question 1 : Création de la classe abstraite Encrypt
+
+1.a) A partir des informations présentées au dessus, créer une classe Encrypt abstraite dont les 
+fonctions `encode` et `decode` sont définies comme des fonctions virtuelles. Ces 2 fonctions seront spécialisées par la suite dans les classes dérivées, en fonction de l'algorithme de chiffrement/déchiffrement utilisé.
+
+### Question 2 : Création de la classe BasicEncrypt
+
+2.a) A partir de la classe Encrypt, créer une classe héritée nommée BasicEncrypt dont les méthodes `encode`et `decode` ne font que recopier le message `_plain` dans `_cypher` pour `encode` et `_cypher`  dans `_plain` pour `decode`. Il est évident qu'une telle classe n'est créée ici qu'à des fins pédagogiques afin d'illustrer le concept des classes abstraites et de leurs classes dérivées.
  
-1.b) Ecrire un programme principal permettant de tester cette classe.
-
-### Question 2 : Création de la classe Encrypt
-
-2.a) A partir des informations présentées au dessus, créer une classe Encrypt abstraite dont les 
-fonctions `encode` et `decode` sont définies comme des fonctions virtuelles.
+2.b) Ecrire un programme principal permettant de tester cette classe.
 
 ### Question 3 : Création de la classe Caesar
 
