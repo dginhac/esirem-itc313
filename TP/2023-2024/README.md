@@ -13,7 +13,8 @@ En binome, vous devez coder au moins 2 TP parmi ces 6 TPs en fonction de votre n
 * Si vous vous sentez intermédiaire, vous pouvez choisir un TP intermédiaire (TP3 ou TP4) et un TP avancé (TP5 ou TP6)
 * Si vous vous sentez à l'aise en programmation, vous pouvez choisir les 2 TPs les plus complexes (TP5 et TP6)
 
-Si vous parvenez à finir 2 TP et qu'il vous reste du temps, vous pouvez choisir un autre TP.
+Si vous parvenez à finir 2 TP et qu'il vous reste du temps, vous pouvez choisir un autre TP. Le but de ces TP est de vous faire progresser dans votre pratique de développement en C++ gràce à l'acquisition de nouvelles compétences.
+
 Lors de la dernière séance de TP, vous aurez une évaluation pratique individuelle pendant laquelle vous aurez du code à écrire.
 
 ## TP1
