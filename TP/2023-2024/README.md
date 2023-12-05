@@ -8,12 +8,13 @@
 
 Vous avez à disposition un ensemble de 6 TP.
 
-En binome, vous devez choisir 2 TP parmi ces 6 TPs en fonction de votre niveau :
+En binome, vous devez coder au moins 2 TP parmi ces 6 TPs en fonction de votre niveau :
 * Si vous vous sentez débutant, vous pouvez choisir un TP débutant (TP1 ou TP2) et un TP intermédiaire (TP3 ou TP4)
 * Si vous vous sentez intermédiaire, vous pouvez choisir un TP intermédiaire (TP3 ou TP4) et un TP avancé (TP5 ou TP6)
 * Si vous vous sentez à l'aise en programmation, vous pouvez choisir les 2 TPs les plus complexes (TP5 et TP6)
 
-A l'issue des TPs, vous enverrez le code source des 2 TPs réalisés à l'enseignant de cours, en respectant les consignes qui vous auront été transmises.
+Si vous parvenez à finir 2 TP et qu'il vous reste du temps, vous pouvez choisir un autre TP.
+Lors de la dernière séance de TP, vous aurez une évaluation pratique individuelle pendant laquelle vous aurez du code à écrire.
 
 ## TP1
 
