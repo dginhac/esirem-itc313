@@ -1,11 +1,12 @@
-# Fundamentals of C++ - From beginner to beyond (Esirem)
+# Mastering Object-Oriented Programming in C++:  From Fundamentals to Best Practices (Polytech'Dijon)
 
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 [![License: GPL v3][gpl-3-shield]][gpl-3]
 
 ## Introduction
 
-The documents available in this GitHub repository are intended for students in the Computer Science / Electronics & Robotics departments of the [ESIREM](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
+The documents available in this GitHub repository are intended for students in the Computer Science / Electronics / Robotics departments
+of the [Polytech'Dijon](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2024-2025:
