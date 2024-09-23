@@ -1,5 +1,4 @@
 // person.cpp
-#include <iostream>
 #include "person.h"
 
 Person::Person(std::string firstname, std::string lastname, int gender) {
@@ -13,8 +12,12 @@ std::string Person::getFullName() {
   if (_gender==1) {
     gender = "Mr";
   }
+  else if (_gender==2) {
+      gender = "Ms";
+  }
+  // Non-binary
   else {
-    gender = "Ms";
+    gender = "";
   }
   return gender + " " + _firstname + " " + _lastname;
 }

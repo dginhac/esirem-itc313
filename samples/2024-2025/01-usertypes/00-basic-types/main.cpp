@@ -1,25 +1,30 @@
 #include <iostream>
 
 int main() {
-	// integer type can be short, long, and unsigned
-	int i1 = 1; // expression from C-language
-	int i2(5); // expression list from C++ Constructor
-	int i3{7}; // initializer list since C++11
+	// integer type can be short, int, long, and unsigned
+	int a_number_not_initialized; // not initialized
+	int the_answer = 42; // expression from C-language
+	int the_space_odissey(2001); // expression list from C++ Constructor
+	int the_number_of_the_beast{666}; // initializer list since C++11
 	// floating point type (simple or double precision)
-	float r1 = 3.14159, r2(0.12345), r3{6.789};
-	double d1 = 6e-4, d2(0.4), d3{6.46546764};
+	float pi = 3.14159, golden_number(1.61803);
+	double square_root_of_2 = 1.41421356237;
 	// character type
-	char c1 = 'A', c2('B'), c3{'C'};
+	char a = 'a';
 	// boolean : true or false
-	bool b1 = true, b2(false), b3{true};
+	bool true_or_false = true;
 	// constant can not be modified and must be initialized when declared
-	const int c_int = 10;
+	const int dalmatians = 101;
 
-	std::cout << "i1 = " << i1 << " - i2 = " << i2 << " - i3 = " << i3 <<std::endl;
-	std::cout << "r1 = " << r1 << " - r2 = " << r2 << " - r3 = " << r3 << std::endl;
-	std::cout << "d1 = " << d1 << " - d2 = " << d2 << " - d3 = " << d3 << std::endl;
-	std::cout << "c1 = " << c1 << " - c2 = " << c2 << " - c3 = " << c3 << std::endl;
-	std::cout << "b1 = " << b1 << " - b2 = " << b2 << " - b3 = " << b3 << std::endl;
-	std::cout << "c_int = " << c_int << std::endl;
+	std::cout << "The number is " << a_number_not_initialized << std::endl;
+	std::cout << "The answer is " << the_answer << std::endl;
+	std::cout << "The space odyssey is " << the_space_odissey << std::endl;
+	std::cout << "The number of the beast is " << the_number_of_the_beast << std::endl;
+	std::cout << "The value of pi is " << pi << std::endl;
+	std::cout << "The golden number is " << golden_number << std::endl;
+	std::cout << "The square root of 2 is " << square_root_of_2 << std::endl;
+	std::cout << "The character is " << a << std::endl;
+	std::cout << "The boolean is " << true_or_false << std::endl;
+	std::cout << "The number of dalmatians is " << dalmatians << std::endl;
 	return 0;
 }

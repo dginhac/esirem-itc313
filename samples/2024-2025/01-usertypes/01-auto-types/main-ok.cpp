@@ -8,8 +8,9 @@ int main() {
 	auto a = 'A';
 	auto hello_world = "hello, world";
 
-	// generate a compilation error
-	auto a_string_not_initialized;
-
+	std::cout << "one = " << one << std::endl;
+	std::cout << "pi = " << pi << std::endl;
+	std::cout << "a = " << a << std::endl;
+	std::cout << "hello_world = " << hello_world << std::endl;
 	return 0;
 }
