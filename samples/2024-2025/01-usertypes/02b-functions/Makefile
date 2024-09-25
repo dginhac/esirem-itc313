@@ -15,8 +15,7 @@
 # -----------------------------------------------------------
 # Modify the following lines to fit your project
 # SRC_FILES is the list of source files to compile, files are separated by a space.
-# Do not put .h files into the source files!
-SRC_FILES  = main.cpp person.cpp
+SRC_FILES  = main.cpp arithmetic.cpp
 #
 # APP is the name of the executable, the executable will be generated into the bin directory
 APP        = app

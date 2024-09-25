@@ -1,11 +1,3 @@
-/**
-  * @File:     date.h
-  * @Author:   D. Ginhac (dginhac@u-bourgogne.fr)
-  * @Date:     Fall 2021
-  * @Course:   C++ Programming / Esirem 3A Informatique Electronique Robotique
-  * @Summary:  Minimal version with only one constructor
-  */
-
 #ifndef DATE_H
 #define DATE_H
 

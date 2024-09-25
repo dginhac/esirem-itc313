@@ -1,4 +1,3 @@
-// person.h
 #include <iostream>
 
 class Person {
