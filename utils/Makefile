@@ -21,7 +21,7 @@ SRC_FILES  = main.cpp person.cpp
 APP        = app
 #
 # Choose your compiler - Use g++ on Linux, Windows and clang++ on Mac OS X
-CXX        = clang++
+CXX        = g++
 # Compiler options - Wall for all warnings, std=c++17 for C++17
 CXXFLAGS   = -Wall  -std=c++17
 #
