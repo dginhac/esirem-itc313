@@ -11,6 +11,7 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2024-2025:
 
+* 2024/10/02: update code samples for lecture 01 (User-defined Data Types)
 * 2024/09/26: add code samples for lecture 01 (User-defined Data Types)
 * 2024/09/26: add lecture 01 (User-defined Data Types)
 * 2024/09/18: add lecture 00 (Introduction)
@@ -20,7 +21,7 @@ They are subject to change as the content of this module evolves.
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
 * Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 30 MB - Last release on Sept., 18, 2024
-* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 23 MB - Last release on Sept., 26, 2024
+* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 32 MB - Last release on Oct., 2, 2024
 * to be continued...
 
 ## Other Content
