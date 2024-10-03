@@ -11,6 +11,7 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2024-2025:
 
+* 2024/10/03: add TD1 (Tutorials) for lecture 01 (User-defined Data Types)
 * 2024/10/02: update code samples for lecture 01 (User-defined Data Types)
 * 2024/09/26: add code samples for lecture 01 (User-defined Data Types)
 * 2024/09/26: add lecture 01 (User-defined Data Types)
