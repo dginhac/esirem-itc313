@@ -11,6 +11,7 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2024-2025:
 
+* 2024/10/22: add lecture 02 (Inheritance) and code samples
 * 2024/10/15: update code samples for lecture 01 (User-defined Data Types)
 * 2024/10/03: add TD1 (Tutorials) for lecture 01 (User-defined Data Types)
 * 2024/10/02: update code samples for lecture 01 (User-defined Data Types)
@@ -24,6 +25,7 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 
 * Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 30 MB - Last release on Sept., 18, 2024
 * Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 36 MB - Last release on Oct., 15, 2024
+* Lecture 02: [Inheritance](https://ginhac.com/ITC313/02-inheritance.pdf) - 9.9 MB - Last release on Oct., 22, 2024
 * to be continued...
 
 ## Other Content
